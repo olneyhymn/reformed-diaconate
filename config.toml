@@ -1,0 +1,4 @@
+baseurl = "http://reformeddeacon.com/"
+languageCode = "en-us"
+title = "Readings in the Reformed Diaconate"
+theme = "diaconate-theme"
