@@ -11,7 +11,7 @@
             <span class="title">{{ .Title }}</span>
             <ul>
               {{ if isset .Params "authors" }}
-                <li>{{ delimit .Params.authors ", " }}
+                <li>{{ delimit .Params.authors ", " ", and " }}
                 </li>
               {{ end }}
               <li class='url'>
