@@ -1,0 +1,26 @@
+{{ partial "head.html" . }}
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="twelve column">
+      <h2>{{ .Title }}</h2>
+
+        <ul>
+        {{ range .Data.Pages.ByTitle }}
+          <li class='item'>
+            <span class="title">{{ .Title }}</span>
+            <ul>
+              {{ if isset .Params "author" }}<li class='author'> {{ .Params.author }} </li>{{ end }}
+              <li class='url'>
+                {{ if isset .Params "source_url" }}<a href="{{ .Params.source_url }}">{{ .Description }}</a>
+                {{ else }}{{ .Description }}{{ end }}
+              </li>
+            </ul>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
