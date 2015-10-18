@@ -158,9 +158,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #093441; }
 a:hover {
-  color: #0FA0CE; }
+  color: #06222b; }
 
 
 /* Buttons
@@ -298,10 +298,10 @@ ul ul,
 ul ol,
 ol ol,
 ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
+  margin: 0em 0 0rem 3rem;
+  font-size: 100%; }
 li {
-  margin-bottom: 1rem; }
+  }
 
 
 /* Code
