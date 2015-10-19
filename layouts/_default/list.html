@@ -2,12 +2,28 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        {{ range .Data.Pages }}
-            {{ if eq .Type  "post" }}
-                {{ .Render "list"}}
-            {{ end }}
+      <div class="twelve column">
+      <h2>{{ .Title }}</h2>
+
+        <ul>
+        {{ range .Data.Pages.ByTitle }}
+          <li class='item'>
+            <span class="title">{{ .Title }}</span>
+            <ul>
+              {{ if isset .Params "authors" }}
+                <li>{{ delimit .Params.authors ", " ", and " }}
+                </li>
+              {{ end }}
+              <li class='url'>
+                {{ if isset .Params "source_url" }}<a href="{{ .Params.source_url }}">{{ .Description }}</a>
+                {{ else }}{{ .Description }}{{ end }}
+              </li>
+            </ul>
+          </li>
         {{ end }}
+        </ul>
+
+        {{ partial "footer.html" . }}
       </div>
     </div>
   </div>
