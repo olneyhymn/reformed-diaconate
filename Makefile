@@ -17,3 +17,6 @@ deploy:
 
 push:
 	git push
+
+pdfs:
+	. make_pdfs.sh
