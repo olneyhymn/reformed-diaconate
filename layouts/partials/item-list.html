@@ -4,7 +4,10 @@
     <span class="title">{{ .Title }}</span>
     <ul>
       {{ if isset .Params "authors" }}
-        <li>{{ delimit .Params.authors ", " ", and " }}
+        <li>
+          {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}
+            <a href="/authors/{{ $e | urlize }}/">{{ $e }}</a>
+          {{ end }}
         </li>
       {{ end }}
       <li class='url'>
