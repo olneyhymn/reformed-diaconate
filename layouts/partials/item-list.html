@@ -1,0 +1,17 @@
+<ul>
+{{ range .Data.Pages.ByTitle }}
+  <li class='item'>
+    <span class="title">{{ .Title }}</span>
+    <ul>
+      {{ if isset .Params "authors" }}
+        <li>{{ delimit .Params.authors ", " ", and " }}
+        </li>
+      {{ end }}
+      <li class='url'>
+        {{ if isset .Params "source_url" }}<a href="{{ .Params.source_url }}">{{ .Description }}</a>
+        {{ else }}{{ .Description }}{{ end }}
+      </li>
+    </ul>
+  </li>
+{{ end }}
+</ul>

@@ -1,15 +1,5 @@
 {{ partial "head.html" . }}
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="twelve column">
-      <h2>{{ .Title }}</h2>
+    {{ partial "item-list.html" . }}
 
-        {{ partial "item-list.html" . }}
+    {{ partial "footer.html" . }}
 
-        {{ partial "footer.html" . }}
-      </div>
-    </div>
-  </div>
-</body>
-</html>
