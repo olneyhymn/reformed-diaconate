@@ -3,6 +3,9 @@ all:
 
 rebuild: clean all
 
+watch:
+	hugo --verbose --watch
+
 preview:
 	hugo server --verbose --watch
 
