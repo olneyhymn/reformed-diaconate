@@ -1,5 +1,5 @@
 +++
-title = "Called to Serve: Essays for Elders and Deacons Paperback"
+title = "Called to Serve: Essays for Elders and Deacons"
 description = "Reformed Fellowship, Inc., Incorporated (2007)."
 authors = ["John A. Bouwers", "Michael G. Brown", "W. Robert Godfrey", "Michael S. Horton", "Daniel R. Hyde", "Nelson Kloosterman", "Randal S. Lankheet", "Bradd L. Nymeyer", "Ralph Pontier", "Kim Riddlebarger", "Derrick J. Vander Meulen", "Cornelis P. Venema"]
 
