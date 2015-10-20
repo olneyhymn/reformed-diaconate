@@ -2,5 +2,7 @@
 title = "The New Testament Deacon"
 description = "Lewis & Roth Publishers (October 1, 1992)."
 authors = ["Alexander Strauch"]
-source_url = "http://www.amazon.com/New-Testament-Deacon-Churchs-Minister/dp/0936083077"
+
+[sources]
+amazon = "http://www.amazon.com/New-Testament-Deacon-Churchs-Minister/dp/0936083077"
 +++

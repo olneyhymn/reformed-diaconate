@@ -6,7 +6,6 @@
   {{ end }}
   <li class='url'>
     {{ .Description }}
-    {{ with .Params.source_url }}<a href="{{ . }}">[web]</a>{{ end }}
-    {{ with .Params.pdf_name }}<a href="{{ . }}">[pdf]</a>{{ end }}
+    {{ with .Params.sources }}{{ range $key, $value := . }}<a href="{{ $value }}">[{{ $key }}]</a> {{ end }}{{ end }}
   </li>
 </ul>
