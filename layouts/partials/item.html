@@ -1,11 +1,15 @@
 <ul>
-  {{ if isset .Params "authors" }}
+  {{ with .Params.sources }}
     <li>
-      {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/" class="no-underline">{{ $e }}</a>{{ end }}
+      {{ range $key, $value := . }}<a href="{{ $value }}">[{{ $key }}]</a> {{ end }}
+    </li>
+  {{ end }}
+  {{ with .Params.authors }}
+    <li>
+      {{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/" class="no-underline">{{ $e }}</a>{{ end }}
     </li>
   {{ end }}
   <li class='url'>
     {{ .Description }}
-    {{ with .Params.sources }}{{ range $key, $value := . }}<a href="{{ $value }}">[{{ $key }}]</a> {{ end }}{{ end }}
   </li>
 </ul>
