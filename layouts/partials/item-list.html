@@ -1,21 +1,12 @@
 <ul>
 {{ range .Data.Pages.ByTitle }}
   <li class='item'>
-    <span class="title"><a href="/{{ .Title | urlize }}/" class="no-underline">
+    <span class="title">
+      <a href="/{{ .Title | urlize }}/" class="no-underline">
       {{ .Title }}
-    </a></span>
-    <ul>
-      {{ if isset .Params "authors" }}
-        <li>
-          {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/">{{ $e }}</a>{{ end }}
-        </li>
-      {{ end }}
-      <li class='url'>
-        {{ .Description }}
-        {{ with .Params.source_url }}<a href="{{ . }}">[web]</a>{{ end }}
-        {{ with .Params.pdf_name }}<a href="{{ . }}">[pdf]</a>{{ end }}
-      </li>
-    </ul>
+      </a>
+    </span>
+    {{ partial "item.html" . }}
   </li>
 {{ end }}
 </ul>
