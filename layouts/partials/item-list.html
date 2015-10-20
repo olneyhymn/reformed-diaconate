@@ -11,7 +11,7 @@
       <li class='url'>
         {{ .Description }}
         {{ with .Params.source_url }}<a href="{{ . }}">[web]</a>{{ end }}
-        {{ with .Params.pdf_name }}<a href="/pdfs/{{ . }}.pdf">[pdf]</a>{{ end }}
+        {{ with .Params.pdf_name }}<a href="{{ . }}">[pdf]</a>{{ end }}
       </li>
     </ul>
   </li>
