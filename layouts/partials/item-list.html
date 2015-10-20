@@ -10,6 +10,8 @@
       {{ end }}
       <li class='url'>
         {{ if isset .Params "source_url" }}<a href="{{ .Params.source_url }}">{{ .Description }}</a>
+        {{ with .Params.pdf_name }}<a href=/pdfs/{{ . }}.pdf>[pdf]</a>{{ end }}
+        <!-- {{ with .Params.pdf_url }}{{ . }}{{ end }} -->
         {{ else }}{{ .Description }}{{ end }}
       </li>
     </ul>
