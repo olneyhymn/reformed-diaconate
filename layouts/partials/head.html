@@ -5,9 +5,10 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>{{ .Title }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>{{ .Site.Params.simpleurl }} — {{ .Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta property="og:type" content="text/html" />
+  <meta property="og:url" content="{{ .Site.BaseURL }}" />
   <meta property="og:image" content="http://reformeddeacon.com/img/secondpres.png" />
 
 

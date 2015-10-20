@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Readings in the Reformed Diaconate"
 [taxonomies]
   author = "authors"
+[params]
+  simpleurl = "ReformedDeacon.com"
