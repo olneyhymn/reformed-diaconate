@@ -1,7 +1,5 @@
-all:
+all: clean
 	hugo --verbose
-
-rebuild: clean all
 
 watch:
 	hugo --verbose --watch
