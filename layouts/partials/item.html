@@ -1,7 +1,7 @@
 <ul>
   {{ if isset .Params "authors" }}
     <li>
-      {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/">{{ $e }}</a>{{ end }}
+      {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/" class="no-underline">{{ $e }}</a>{{ end }}
     </li>
   {{ end }}
   <li class='url'>
