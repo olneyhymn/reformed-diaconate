@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+  <h3>{{ .Title }}</h2>
+
+    <ul>
+      {{ if isset .Params "authors" }}
+        <li>
+          {{ range $i, $e := .Params.authors }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/">{{ $e }}</a>{{ end }}
+        </li>
+      {{ end }}
+      <li class='url'>
+        {{ .Description }}
+        {{ with .Params.source_url }}<a href="{{ . }}">[web]</a>{{ end }}
+        {{ with .Params.pdf_name }}<a href="{{ . }}">[pdf]</a>{{ end }}
+      </li>
+    </ul>
+
+    {{ .Content }}
+
+    {{ partial "footer.html" . }}

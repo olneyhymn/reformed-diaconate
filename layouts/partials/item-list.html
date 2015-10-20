@@ -1,7 +1,9 @@
 <ul>
 {{ range .Data.Pages.ByTitle }}
   <li class='item'>
-    <span class="title">{{ .Title }}</span>
+    <span class="title"><a href="/{{ .Title | urlize }}/" class="no-underline">
+      {{ .Title }}
+    </a></span>
     <ul>
       {{ if isset .Params "authors" }}
         <li>
