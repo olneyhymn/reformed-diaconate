@@ -5,3 +5,11 @@
 .no-underline {
   text-decoration: none;
 }
+
+.caption {
+    font-size: 0.5em;
+    line-height: .9;
+    text-align: right;
+    margin-top: -5px;
+    padding-right: 20px;
+}
