@@ -1,11 +1,11 @@
 all: clean
-	hugo --verbose
+	~/go/bin/hugo --verbose
 
 watch:
-	hugo --verbose --watch
+	~/go/bin/hugo --verbose --watch
 
 preview:
-	hugo server --verbose --watch
+	~/go/bin/hugo server --verbose --watch
 
 clean:
 	rm -rf public
