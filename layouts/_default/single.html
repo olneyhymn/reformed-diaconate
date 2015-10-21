@@ -3,6 +3,7 @@
 
   {{ partial "item.html" . }}
 
+    {{ with .Content }}<hr />{{ end }}
     {{ .Content }}
 
     {{ partial "footer.html" . }}
