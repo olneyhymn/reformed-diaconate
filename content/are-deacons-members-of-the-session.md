@@ -5,5 +5,5 @@ authors = ["R. Dean Anderson Jr."]
 
 [sources]
 web = "http://www.opc.org/OS/html/V2/4a.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV24ahtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV24ahtml.pdf"
 +++

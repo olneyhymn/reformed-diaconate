@@ -5,5 +5,5 @@ authors = ["Roger Schmurr"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V4/1g.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV41ghtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV41ghtml.pdf"
 +++

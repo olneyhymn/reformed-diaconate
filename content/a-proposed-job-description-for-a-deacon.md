@@ -5,5 +5,5 @@ authors = ["A. G. Edwards"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V4/1b.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV41bhtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV41bhtml.pdf"
 +++

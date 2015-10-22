@@ -5,5 +5,5 @@ authors = ["C. Van Dam"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V1/1d.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV11dhtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV11dhtml.pdf"
 +++

@@ -5,5 +5,5 @@ authors = ["Committee for the Central Diaconal Conference of Reformed Churches"]
 
 [sources]
 web = "http://opc.org/OS/html/V2/4b.html"
-pdf = "/pdfs/httpopcorgOShtmlV24bhtml.pdf"
+"pdf archive" = "/pdfs/httpopcorgOShtmlV24bhtml.pdf"
 +++

@@ -5,5 +5,5 @@ authors = ["Soon-Gil Hur"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V7/4b.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV74bhtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV74bhtml.pdf"
 +++

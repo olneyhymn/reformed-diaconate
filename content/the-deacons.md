@@ -5,5 +5,5 @@ authors = ["John Calvin"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V1/1e.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV11ehtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV11ehtml.pdf"
 +++

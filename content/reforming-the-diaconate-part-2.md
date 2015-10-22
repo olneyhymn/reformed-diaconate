@@ -5,5 +5,5 @@ authors = ["William Shishko"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V1/3c.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV13chtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV13chtml.pdf"
 +++
