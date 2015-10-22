@@ -18,3 +18,6 @@ push:
 
 pdfs:
 	. make_pdfs.sh
+
+archive_pdfs:
+	. archive_pdfs.sh
