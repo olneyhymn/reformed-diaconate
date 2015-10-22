@@ -5,5 +5,5 @@ authors = ["Ronald Pearce"]
 
 [sources]
 web = "http://www.opc.org/nh.html?article_id=642&pfriendly=Y"
-pdf = "/pdfs/httpwwwopcorgnhhtmlarticleid642pfriendlyY.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgnhhtmlarticleid642pfriendlyY.pdf"
 +++

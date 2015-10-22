@@ -5,5 +5,5 @@ authors = ["Board of Deacons at the Orthodox Presbyterian Church of Franklin Squ
 
 [sources]
 web = "http://www.opc.org/OS/html/V7/3e.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV73ehtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV73ehtml.pdf"
 +++

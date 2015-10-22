@@ -5,5 +5,5 @@ authors = ["George W. Knight III"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V5/3f.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV53fhtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV53fhtml.pdf"
 +++

@@ -5,5 +5,5 @@ authors = ["Archibald Alexander Allison"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V6/1b.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV61bhtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV61bhtml.pdf"
 +++

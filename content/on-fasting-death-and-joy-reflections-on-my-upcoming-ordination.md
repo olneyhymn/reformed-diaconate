@@ -5,5 +5,5 @@ authors = ["Hugh Lynn"]
 
 [sources]
 web = "http://opc.org/os.html?article_id=410&issue_id=93&pfriendly=Y"
-pdf = "/pdfs/httpopcorgoshtmlarticleid410issueid93pfriendlyY.pdf"
+"pdf archive" = "/pdfs/httpopcorgoshtmlarticleid410issueid93pfriendlyY.pdf"
 +++

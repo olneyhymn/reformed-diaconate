@@ -4,5 +4,5 @@ description = "PCA Study Committee Report (1978)."
 
 [sources]
 web = "http://www.pcahistory.org/pca/2-159.html"
-pdf = "/pdfs/httpwwwpcahistoryorgpca2159html.pdf"
+"pdf archive" = "/pdfs/httpwwwpcahistoryorgpca2159html.pdf"
 +++

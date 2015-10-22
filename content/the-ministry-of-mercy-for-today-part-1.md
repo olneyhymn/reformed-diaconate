@@ -5,5 +5,5 @@ authors = ["Peter Y. de Jong"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V3/3b.html"
-pdf = "/pdfs/httpwwwopcorgOShtmlV33bhtml.pdf"
+"pdf archive" = "/pdfs/httpwwwopcorgOShtmlV33bhtml.pdf"
 +++

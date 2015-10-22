@@ -5,5 +5,5 @@ authors = ["Ivan Davis", "Richard B. Gaffin Jr", "Robert D. Knudsen", "Gregory E
 
 [sources]
 web = "http://opc.org/GA/women_in_office.html"
-pdf = "/pdfs/httpopcorgGAwomeninofficehtml.pdf"
+"pdf archive" = "/pdfs/httpopcorgGAwomeninofficehtml.pdf"
 +++
