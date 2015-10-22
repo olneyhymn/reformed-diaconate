@@ -2,7 +2,7 @@
 {{ range .Data.Pages.ByTitle }}
   <li class='item'>
     <span class="title">
-      <a href="/{{ .Title | urlize }}/" class="no-underline">
+      <a href="{{ .Permalink }}" class="no-underline">
       {{ .Title }}
       </a>
     </span>
