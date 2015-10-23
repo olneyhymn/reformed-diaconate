@@ -1,23 +1,27 @@
 all: clean
+	# Rebuild pages
 	~/go/bin/hugo --verbose
 
-watch:
-	~/go/bin/hugo --verbose --watch
-
 preview:
+	# Launch local server to preview pages (with auto refresh)
 	~/go/bin/hugo server --verbose --watch
 
 clean:
+	# Delete local build
 	rm -rf public
 
 deploy:
+	# Deploy site to heroku
 	git push heroku master
 
 push:
+	# Push to github
 	git push
 
 pdfs:
+	# Generate PDFs from HTML pages (esp opc.org pages)
 	. make_pdfs.sh
 
 archive_pdfs:
+	# Archive pdf files from other sites... just in case.
 	. archive_pdfs.sh

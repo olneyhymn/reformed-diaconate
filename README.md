@@ -1,5 +1,5 @@
-Regenerate pages with `$ hugo`.
+Bibliography of readings about the office of deacon.
 
-Develop with `$ hugo server --verbose --watch`.
+See `Makefile` for deployment commands.
 
-Deploy to Heroku with `$ git push heroku master`.
+Don't forget to run `make archive_pdfs` periodically... just in case.
