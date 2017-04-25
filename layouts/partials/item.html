@@ -13,3 +13,11 @@
     {{ .Description }}
   </li>
 </ul>
+
+{{ with .Params.sources }}
+  {{ range $key, $value := . }}
+    {{ if eq $key "pdf archive" }}
+    <embed src="http://domain.com/your_pdf.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+    {{ end }}
+  {{ end }}
+{{ end }}
