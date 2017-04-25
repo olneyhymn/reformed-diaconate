@@ -1,10 +1,10 @@
 all: clean
 	# Rebuild pages
-	~/go/bin/hugo --verbose
+	hugo --verbose
 
 preview:
 	# Launch local server to preview pages (with auto refresh)
-	~/go/bin/hugo server --verbose --watch
+	hugo server --verbose --watch
 
 clean:
 	# Delete local build
