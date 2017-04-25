@@ -1,6 +1,7 @@
-all: clean
+all: clean push
 	# Rebuild pages
 	hugo --verbose
+	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
 
 preview:
 	# Launch local server to preview pages (with auto refresh)
@@ -12,7 +13,7 @@ clean:
 
 deploy:
 	# Deploy site to heroku
-	git push heroku master
+	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
 
 push:
 	# Push to github
