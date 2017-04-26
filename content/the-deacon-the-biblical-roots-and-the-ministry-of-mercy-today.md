@@ -1,6 +1,6 @@
 +++
 title = "The Deacon: The Biblical Roots and the Ministry of Mercy Today"
-description = "Orthodox Presbyterian Church Uganda Mission Report (August 15, 2015)"
+description = "Reformation Heritage Books (2016)"
 slug = "the-deacon-the-biblical-roots-and-the-ministry-of-mercy-today"
 authors = ["Cornelis Van Dam"]
 [sources]
