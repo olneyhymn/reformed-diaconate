@@ -29,6 +29,7 @@ a.resp-sharing-button__link:hover {
 }
 
 .resp-sharing-button {
+  font-size: 10px;
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
