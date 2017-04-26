@@ -24,6 +24,10 @@
   margin: 0.5em
 }
 
+a.resp-sharing-button__link:hover {
+    color: #fff;
+}
+
 .resp-sharing-button {
   border-radius: 5px;
   transition: 25ms ease-out;
