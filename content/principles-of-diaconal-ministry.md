@@ -1,6 +1,6 @@
 +++
 title = "Principles of Diaconal Ministry"
-description = "Orthodox Presbyterian Chruch Committee on Diaconal Minsitries Operating Manual (2016)."
+description = "Orthodox Presbyterian Church Committee on Diaconal Ministries Operating Manual (2016)."
 authors = ["Orthodox Presbyterian Church"]
 slug = "principles-of-diaconal-ministry"
 [sources]
