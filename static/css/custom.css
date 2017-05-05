@@ -11,23 +11,25 @@
 }
 
 blockquote {
-    font-size: 1.3em;
-    font-style: italic;
-    margin-left: .5em;
-    padding: 1.5em;
-    border-left: 4px solid rgba(176, 196, 222, 0.5);
-    border-radius: 10px;
-    text-align: justify;
-    background-color: rgba(176, 196, 222, 0.1);
+  font-size: 1.3em;
+  font-style: italic;
+  margin: 0em;
+  padding: 1.5em;
+  border-left: 4px solid rgba(176, 196, 222, 0.5);
+  border-radius: 10px;
+  text-align: justify;
+  background-color: rgba(176, 196, 222, 0.1);
 }
 
 
 .caption {
-    font-size: 0.5em;
-    line-height: .9;
-    text-align: right;
-    margin-top: -5px;
-    padding-right: 20px;
+  font-size: 0.5em;
+  line-height: .9;
+  text-align: right;
+  margin-top: -5px;
+  padding-right: 20px;
+  padding-top: 5px;
+  float: right;
 }
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
