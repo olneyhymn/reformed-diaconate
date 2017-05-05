@@ -5,4 +5,5 @@ authors = ["R.C. Reed"]
 
 [sources]
 web = "http://pcahistory.org/topicalresources/deacons/Reed-1903-Deacon.pdf"
+"pdf archive" = "/pdfs/reed-the-deacon.pdf"
 +++

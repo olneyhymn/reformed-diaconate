@@ -5,5 +5,6 @@ authors = ["Stuart Robinson"]
 
 [sources]
 web = "http://pcahistory.org/topicalresources/deacons/OfficeOfDeacon.pdf"
+"pdf archive" = "/pdfs/robinson-the-office-of-deacon.pdf"
 +++
 
