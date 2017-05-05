@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.pdfbox {
+  padding-top: 50px;
+}
+
 .caption {
     font-size: 0.5em;
     line-height: .9;
