@@ -1,6 +1,6 @@
 +++
-title = "1 Timothy 3:8-13 (ESV)"
-description = "Biblical qualifications for deacons (ESV translation)."
+title = "1 Timothy 3:8-13"
+description = "The Holy Bible, English Standard Version. Copyright ©2001"
 authors = ["Paul the Apostle"]
 tags = ["biblical foundations"]
 
