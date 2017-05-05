@@ -1,6 +1,6 @@
 +++
-title = "Acts 6 (ESV)"
-description = "Institution of the diaconate (ESV translation)."
+title = "Acts 6"
+description = "The Holy Bible, English Standard Version. Copyright ©2001"
 authors = ["Luke the Evangelist"]
 tags = ["biblical foundations"]
 
