@@ -5,4 +5,5 @@ authors = ["James B. Ramsay"]
 
 [sources]
 web = "http://pcahistory.org/HCLibrary/periodicals/spr/v12/12-1-1.pdf"
+"pdf archive" = "/pdfs/ramsay-the-deaconship.pdf"
 +++
