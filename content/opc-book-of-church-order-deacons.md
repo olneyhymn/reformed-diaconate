@@ -2,11 +2,14 @@
 title = "OPC Book of Church Order: Deacons"
 description = "The Book of Church Order of the Orthodox Presbyterian Church: Form of Government. The Committee on Christian Education of the Orthodox Presbyterian Church, 2015. Chapter XI."
 authors = ["Orthodox Presbyterian Church"]
+tags = ["book of church order"]
 
 [sources]
 "full pdf" = "http://opc.org/BCO/BCO_2015.pdf"
 "chapter text" = "/opc-book-of-church-order-deacons/"
 +++
+
+#### Full Text
 
 1. The Scriptures designate the office of deacon as distinct and perpetual in the church. Deacons are called to show forth the compassion of Christ in a manifold ministry of mercy toward the saints and strangers on behalf of the church. To this end they exercise, in the fellowship of the church, a recognized stewardship of care and of gifts for those in need or distress. This service is distinct from that of rule in the church.
 
