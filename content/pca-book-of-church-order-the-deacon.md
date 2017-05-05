@@ -2,11 +2,14 @@
 title = "PCA Book of Church Order: The Deacon"
 description = "PCA Book of Church Order. Committee on Discipleship Ministries, 2015. Part 1, Chapter 9."
 authors = ["Presbyterian Church in America"]
+tags = ["book of church order"]
 
 [sources]
 "full pdf" = "http://www.pcaac.org/wp-content/uploads/2015/06/2015BCO-Reprint-with-bookmarks.pdf"
 "chapter text" = "/pca-book-of-church-order-the-deacon/"
 +++
+
+#### Full Text
 
 __9-1.__ The office of deacon is set forth in the Scriptures as ordinary and perpetual in the Church. The office is one of sympathy and service, after the example of the Lord Jesus; it expresses also the communion of saints,
 especially in their helping one another in time of need.
