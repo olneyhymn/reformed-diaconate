@@ -3,6 +3,10 @@ all: clean push
 	hugo --verbose
 	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
 
+scss:
+	sass --watch static/scss/bootstrap.scss:static/_css/bootstrap.css static/scss/bootstrap-grid.scss:static/_css/bootstrap-grid.css static/scss/bootstrap-reboot.scss:static/_cs
+s/bootstrap-reboot.scss
+
 preview:
 	# Launch local server to preview pages (with auto refresh)
 	hugo server --verbose --watch
