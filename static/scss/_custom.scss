@@ -1,0 +1,82 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+
+$gray-base:              #000;
+$gray-darker:            lighten($gray-base, 13.5%); // #222
+$gray-dark:              #7b8a8b;   // #333
+$gray:                   #95a5a6; // #555
+$gray-light:             #b4bcc2;   // #999
+$gray-lighter:           #ecf0f1; // #eee
+
+$brand-primary:         #2C3E50;
+$brand-success:         #18BC9C;
+$brand-info:            #3498DB;
+$brand-warning:         #F39C12;
+$brand-danger:          #E74C3C;
+
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-serif:      'Alegreya', serif;
+$font-family-base:       $font-family-sans-serif;
+$headings-font-family:   $font-family-serif;
+
+.navbar {
+  background-color: rgba($brand-primary, 0.8);
+}
+
+.header {
+  padding-top: 70px;
+}
+
+$jumbotron-padding: 0;
+$jumbotron-bg: transparent;
+
+.header {
+    background-image:url('/static/church_blur.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header {
+  padding: 6rem 0 .5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.header img {
+  margin-bottom: 1rem;
+}
+
+.header .title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.header ul,
+.header li {
+  margin-bottom: .5rem;
+}
+
+.header ul {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: lowercase;
+}
+
+.main {
+  background-color: #fff;
+  padding: 1.5rem 0;
+}
+
+.footer {
+  padding: 1.5rem 0 .5rem;
+  border-top: 1px solid $brand-primary;
+  background-color: lighten($brand-primary, 50%);
+}
