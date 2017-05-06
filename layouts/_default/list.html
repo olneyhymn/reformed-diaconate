@@ -1,6 +1,7 @@
-{{ partial "head.html" . }}
+{{ define "main" }}
+
     <h5>{{ .Title }}</h5>
 
     {{ partial "item-list.html" . }}
 
-    {{ partial "footer.html" . }}
+{{ end }}
