@@ -4,8 +4,7 @@ all: clean push
 	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
 
 scss:
-	sass --watch static/scss/bootstrap.scss:static/_css/bootstrap.css static/scss/bootstrap-grid.scss:static/_css/bootstrap-grid.css static/scss/bootstrap-reboot.scss:static/_cs
-s/bootstrap-reboot.scss
+	sass --watch static/scss/bootstrap.scss:static/_css/bootstrap.css static/scss/bootstrap-grid.scss:static/_css/bootstrap-grid.css static/scss/bootstrap-reboot.scss:static/_css/bootstrap-reboot.scss
 
 preview:
 	# Launch local server to preview pages (with auto refresh)
@@ -14,6 +13,7 @@ preview:
 clean:
 	# Delete local build
 	rm -rf public
+	rm -rf static/_css
 
 deploy:
 	# Deploy site to heroku
