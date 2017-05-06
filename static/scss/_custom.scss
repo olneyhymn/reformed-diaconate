@@ -3,4 +3,49 @@
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
+// Readable 3.2.0
+// Variables
+// --------------------------------------------------
 
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray:                   #95a5a6; // #555
+$gray-darker:            lighten(#000, 13.5%); // #222
+$gray-dark:              #7b8a8b;   // #333
+$gray-light:             #b4bcc2;   // #999
+$gray-lighter:           #ecf0f1; // #eee
+
+$brand-primary:         rgb(96, 92, 63  );
+$brand-success:         #18BC9C;
+$brand-info:            #3498DB;
+$brand-warning:         #F39C12;
+$brand-danger:          #E74C3C;
+
+$body-bg:       $white;
+$body-color:    $black;
+$inverse-bg:    $gray-dark;
+$inverse-color: $gray-lighter;
+
+$font-family-sans-serif:  "Hind";
+$font-family-base:        $font-family-sans-serif;
+$headings-font-family:    "Montserrat";
+
+$link-color:            $brand-primary;
+$link-decoration:       none;
+$link-hover-color:      darken($link-color, 15%);
+$link-hover-decoration: underline;
+
+$card-columns-count: 3;
+$card-spacer-x: 1em;
+
+.card-columns {
+  @include media-breakpoint-down(sm) {
+    column-count: 1 !important;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 2 !important;
+  }
+}
