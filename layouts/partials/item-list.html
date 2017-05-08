@@ -1,11 +1,11 @@
 <div class="row">
 <div class="col-sm-12">
-<div class="grid">
+<div class="grid" id="card-container">
     <div class="grid-sizer"></div>
     {{ range .Data.Pages.ByTitle }}
-    <div class="grid-item card">
+    <div class="grid-item card {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}}{{ end }}{{ end }}">
         <div class="card-block">
-            <h5 class="card-title">{{ .Title }}</h5>
+            <h5 class="card-title"><a href="{{ .Permalink }}" class="no-underline">{{ .Title }}</a></h5>
             <div class="card-text">
             <ul class="list-unstyled mb-0">
                 <li>

@@ -58,6 +58,9 @@ $link-hover-decoration: underline;
   }
 }
 
+#card-container {
+  width: 100%;
+}
 
 .grid-item {
   float: left;
@@ -65,4 +68,22 @@ $link-hover-decoration: underline;
   border: 2px solid #333;
   border-color: hsla(0, 0%, 0%, 0.5);
   border-radius: 5px;
+}
+
+#card-container .card {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity:1;
+    filter:alpha(opacity=100);
+    overflow:hidden;
+}
+
+#card-container .card.filtered{
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    transform:scale(0);
+    opacity:0;
+    filter:alpha(opacity=0);
 }

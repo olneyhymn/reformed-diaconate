@@ -6,13 +6,17 @@
     </div>
     </div>
 
-
-    <ul id="filter-works">
-        <li><a href="#" data-filter="*" class="active">All</a>
+    <div class="row">
+    <div class="col-sm-12 text-center">
+    <ul id="filter-works" class="list-inline">
+        <li class="list-inline-item">Filter:</li>
+        <li class="list-inline-item"><a href="#" data-filter="*" class="active">All</a></li>
         {{ range $key, $value := .Site.Taxonomies.tags }}
-            <li ><a href="#" data-filter=".{{ $key | urlize }}">{{ $key | humanize | title }}</a> </li>
+            <li class="list-inline-item"><a href="#" data-filter=".{{ $key | urlize }}">{{ $key | humanize | title }}</a> </li>
         {{ end }}
     </ul>
+    </div></div>
+
 
     {{ partial "item-list.html" . }}
 
