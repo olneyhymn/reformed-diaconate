@@ -1,14 +1,12 @@
 $(document).ready(function() {
-    $('.grid').masonry({
+
+    $('#card-container').masonry({
       // set itemSelector so .grid-sizer is not used in layout
       itemSelector: '.grid-item:not(.filtered)',
       // use element for option
       columnWidth: '.grid-sizer',
-      percentPosition: true,
-      isFitWidth: true,
       isResizable: true,
       isAnimated: !Modernizr.csstransitions,
-      gutterWidth: 25
     });
 
 
@@ -20,12 +18,14 @@ $(document).ready(function() {
 
         var category = $(this).attr('data-filter');
 
-        $('.item').each(function() {
+        $('#card-container .card').each(function() {
             if ($(this).is(category)) {
                 $(this).removeClass('filtered');
             } else {
                 $(this).addClass('filtered');
             }
         });
+        $('#card-container').masonry('reloadItems');
+        $('#card-container').masonry('layout');
     });
 });
