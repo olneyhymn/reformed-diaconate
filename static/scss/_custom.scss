@@ -38,11 +38,37 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
-.pdfbox {
-  padding-top: 50px;
+.title {
+  font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; font-weight: bold;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+blockquote {
+  font-size: 1.3em;
+  font-style: italic;
+  margin: 0em;
+  padding: 1.5em;
+  border-left: 4px solid rgba(176, 196, 222, 0.5);
+  border-radius: 10px;
+  text-align: justify;
+  background-color: rgba(176, 196, 222, 0.1);
 }
 
 
+.caption {
+  font-size: 0.5em;
+  line-height: .9;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.pdfbox {
+  padding-top: 50px;
+}
 
 .pdfembed {
   @include media-breakpoint-down(sm) {
