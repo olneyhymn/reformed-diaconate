@@ -38,6 +38,24 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
+.pdfbox {
+  padding-top: 50px;
+}
+
+
+
+.pdfembed {
+  @include media-breakpoint-down(sm) {
+    height: 400px;
+  }
+  @include media-breakpoint-only(md) {
+    height: 600px;
+  }
+  @include media-breakpoint-up(lg) {
+    height: 800px;
+  }
+}
+
 .grid-item,
 .grid-sizer {
   @include media-breakpoint-down(sm) {
