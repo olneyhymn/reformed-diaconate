@@ -42,6 +42,38 @@ $link-hover-decoration: underline;
   font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; font-weight: bold;
 }
 
+#banner {
+  background-image:url("/img/secondpres-large.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: #C4C4C4;
+  padding: 70px 0; /*controls padding around inner text*/
+  position: relative;
+  overflow: auto;
+  margin: auto;
+}
+
+#banner
+{
+  .copy {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    display: inline;
+    float: left;
+    max-width: 600px;
+    padding: 70px;
+    position: relative;
+    z-index: 1;
+    color: $inverse-color;
+  }
+  a {
+    color: $inverse-color;
+  }
+}
+
+
+
 .no-underline {
   text-decoration: none;
 }
