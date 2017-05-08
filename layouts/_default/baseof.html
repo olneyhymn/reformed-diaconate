@@ -57,17 +57,21 @@
 </head>
 
 <body>
-  <a href="{{ .Site.BaseURL }}">
-    <img src="/img/secondpres-large.jpg" style="width: 100%;">
-    </a>
-  <div class="caption">Second Presbyterian Church in Charleston, South Carolina</div>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-10 offset-sm-1">
-
-        <h1 class="text-center py-4"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
-      </div>
+  <div class="container-fluid px-0">
+  <div id="banner">
+    <div class="container">
+    <div class="copy text-center">
+      <h1 class="py-4"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      <h3 class="subtitle">A bibliography</h3>
     </div>
+    </div>
+  </div>
+  <div class="caption">Second Presbyterian Church in Charleston, South Carolina</div>
+  </div>
+
+
+  <div class="container">
+
       {{ block "main" . }}
         <!-- The part of the page that begins to differ between templates -->
       {{ end }}
