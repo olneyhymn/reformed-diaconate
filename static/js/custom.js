@@ -1,5 +1,15 @@
 $(document).ready(function() {
 
+    var jumboHeight = $('.jumbotron').outerHeight();
+    function parallax(){
+        var scrolled = $(window).scrollTop();
+        $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+    }
+
+    $(window).scroll(function(e){
+        parallax();
+    });
+
     $('#card-container').masonry({
       // set itemSelector so .grid-sizer is not used in layout
       itemSelector: '.grid-item:not(.filtered)',
