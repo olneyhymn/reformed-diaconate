@@ -1,9 +1,13 @@
 {{ define "main" }}
 
+    <div class="row">
+    <div class="col-sm-12">
     {{ partial "intro.html" . }}
+    </div>
+    </div>
 
     {{ partial "item-list.html" . }}
 
-    {{ partial "social.html" . }}
+    <div class="row">{{ partial "social.html" . }}</div>
 
 {{ end }}
