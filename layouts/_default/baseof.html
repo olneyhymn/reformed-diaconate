@@ -57,10 +57,16 @@
 </head>
 
 <body>
+  <nav class="navbar fixed-top navbar-inverse bg-primary justify-content-end nav-hidden">
+    <ul class="navbar-nav">
+      <li class="float-sm-right navbar-brand ml-auto "><a class="navbar-brand" href="/">{{ .Site.Title }}</a></li>
+    </ul>
+  </nav>
+
   <div class="container-fluid bg">
     <div class="jumbotron">
-      <div class="banner">
-        <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      <div class="banner mt-4 pt-4">
+        <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
         <p class='lead'>A bibliography</p>
       </div>
     </div>

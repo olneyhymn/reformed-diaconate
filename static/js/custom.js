@@ -4,6 +4,7 @@ $(document).ready(function() {
     function parallax(){
         var scrolled = $(window).scrollTop();
         $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+        $('.navbar').removeClass('nav-hidden');
     }
 
     $(window).scroll(function(e){
