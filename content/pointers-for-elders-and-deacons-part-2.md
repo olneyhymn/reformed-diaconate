@@ -9,6 +9,6 @@ web = "http://opc.org/OS/html/V2/4b.html"
 "pdf archive" = "/pdfs/httpopcorgOShtmlV24bhtml.pdf"
 +++
 
-#### Quotes
+#### Quote
 
 > [The deacon] must resist the temptation to do everything himself. Instead he should put the congregation to work. You could say that he should make himself redundant.
