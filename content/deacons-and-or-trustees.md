@@ -9,6 +9,6 @@ web = "http://www.opc.org/OS/html/V4/1g.html"
 "pdf archive" = "/pdfs/httpwwwopcorgOShtmlV41ghtml.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > __The Question:__ Should unordained persons handle the finances and physical upkeep of church property?

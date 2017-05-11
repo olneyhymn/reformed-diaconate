@@ -10,7 +10,7 @@ tags = ["diaconal practice", "biblical foundations", "denominational report"]
 "pdf archive" = "/pdfs/Principles_and_Materials_for_the_Ministry_of_Mercy.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > Following the example of our Savior, who though He was rich, yet for our sake He became poor, so that we by His poverty might become rich, it is the duty of all saintsto be hospitable and to come to the aid of one another in material things, according totheir various abilities and necessities.
 

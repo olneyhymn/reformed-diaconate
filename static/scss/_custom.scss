@@ -110,6 +110,9 @@ blockquote {
   border-radius: 5px;
   text-align: justify;
   background-color: rgba(176, 196, 222, 0.1);
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 

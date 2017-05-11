@@ -9,6 +9,6 @@ web = "http://www.opc.org/OS/html/V1/3c.html"
 "pdf archive" = "/pdfs/httpwwwopcorgOShtmlV13chtml.pdf"
 +++
 
-#### Quote
+#### Excerpt
 
 > Our prospective deacons have required homework covering the basics of Reformed doctrine, and the class sessions offer applications to the diaconate which flow out of the heads of doctrine as represented in the Westminster Confession of Faith, and elaborated upon in the Larger and Shorter Catechisms. This is done under a series of “Doctrinal Propositions Which Must Guide the Ongoing and Developing Work of a Diaconate.”

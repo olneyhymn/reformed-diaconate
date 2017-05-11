@@ -10,6 +10,6 @@ tags = ["biblical foundations", "denominational report"]
 "pdf archive" = "/pdfs/2016-03-14_Principles_of_Diaconal_Ministry_from_CDM_Manual.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > Diaconal ministry adorns the gospel when it provides tangible evidence of the love of God and of his messengers for the lost of this world. Indeed, in certain circumstances of extreme hardship the ministry of the Word can be virtually unintelligible apart from a ministry of deed.
