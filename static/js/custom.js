@@ -1,10 +1,10 @@
 $(document).ready(function() {
-
+    $('.navbar').hide();
     var jumboHeight = $('.jumbotron').outerHeight();
     function parallax(){
         var scrolled = $(window).scrollTop();
         $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-        $('.navbar').removeClass('nav-hidden');
+        $('.navbar').fadeIn(1000);
     }
 
     $(window).scroll(function(e){

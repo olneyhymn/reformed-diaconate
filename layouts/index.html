@@ -7,15 +7,17 @@
     </div>
 
     <div class="row">
-    <div class="col-md-8 offset-md-2 text-center">
     <hr>
-    <ul id="filter-works" class="list-inline">
-        <li class="list-inline-item">Filter:</li>
-        <li class="list-inline-item"><a href="#" data-filter="*" class="active">All</a></li>
-        {{ range $key, $value := .Site.Taxonomies.tags }}
-            <li class="list-inline-item"><a href="#" data-filter=".{{ $key | urlize }}">{{ $key | humanize | title }}</a> </li>
-        {{ end }}
-    </ul>
+    <div class="col-md-1">
+        Filter:
+    </div>
+    <div class="col-md-11">
+        <ul id="filter-works" class="list-inline">
+            <li class="list-inline-item"><a href="#" data-filter="*" class="active">All</a></li>
+            {{ range $key, $value := .Site.Taxonomies.tags }}
+                <li class="list-inline-item"><a href="#" data-filter=".{{ $key | urlize }}">{{ $key | humanize | title }}</a> </li>
+            {{ end }}
+        </ul>
     </div></div>
 
 
