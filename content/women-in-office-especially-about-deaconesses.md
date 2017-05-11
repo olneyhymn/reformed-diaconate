@@ -2,6 +2,7 @@
 title = "Women in Office, Especially About \"Deaconesses\""
 description = "Ordained Servant 7 no. 4 (1998): 75-77."
 authors = ["Soon-Gil Hur"]
+tags = ["biblical foundations", "denominational report"]
 
 [sources]
 web = "http://www.opc.org/OS/html/V7/4b.html"
