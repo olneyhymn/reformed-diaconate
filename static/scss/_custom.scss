@@ -30,18 +30,33 @@ $body-color:    $black;
 $inverse-bg:    $gray-dark;
 $inverse-color: $gray-lighter;
 
-$font-family-sans-serif:  "Hind";
-$font-family-base:        $font-family-sans-serif;
-$headings-font-family:    "Montserrat";
+$font-family-serif:       "Vollkorn";
+$font-family-sans-serif:       "Montserrat";
+$font-family-base:        $font-family-serif;
+$headings-font-family:    $font-family-sans-serif;
 
 $link-color:            $brand-primary;
 $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
-.nav-hidden {
-  visibility: hidden;
+.list-inline-item:not(:last-child) {
+  margin-right: 0;
 }
+.list-inline::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.list-inline-item {
+  float: left;
+}
+.list-inline-item + .list-inline-item::before {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  content: "|";
+}
+
 
 .title {
   font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; font-weight: bold;
@@ -133,10 +148,6 @@ blockquote {
   @include media-breakpoint-up(lg) {
     background-color: blue;
     width: 33%;
-  }
-  @include media-breakpoint-up(xl) {
-    background-color: blue;
-    width: 25%;
   }
 }
 
