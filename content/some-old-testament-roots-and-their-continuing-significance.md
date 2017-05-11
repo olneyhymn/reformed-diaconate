@@ -9,7 +9,7 @@ web = "http://www.opc.org/OS/html/V1/1d.html"
 "pdf archive" = "/pdfs/httpwwwopcorgOShtmlV11dhtml.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > Why did the Lord repeatedly express such great concern for the plight of the needy in Israel and warn Israel in no uncertain terms of his great wrath and vengeance to those who afflicted the needy and who did not help them (e.g. Ex. 22:22-24)? At the basis of the Lord’s special interest and care for the needy and oppressed is the fact that he, the Lord, had once led Israel out of the bondage and oppression of Egypt and had claimed them as his own precious possession, his covenant people.
 

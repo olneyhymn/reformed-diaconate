@@ -2,14 +2,14 @@
 title = "The Deaconship"
 description = "Southern Presbyterian Review, 12.1 (April 1859): 1-24."
 authors = ["James B. Ramsay"]
-tags = ["None"]
+tags = ["Biblical Foundations"]
 
 [sources]
 web = "http://pcahistory.org/HCLibrary/periodicals/spr/v12/12-1-1.pdf"
 "pdf archive" = "/pdfs/ramsay-the-deaconship.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > That indeed, is a sadly defedive state of the church where there are no poor, there mud be something verv deficient in its zeal and aggressiveness, if amidd the multitudes of poor around us, and mingling with us, there are none in the church itself.
 

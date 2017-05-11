@@ -9,7 +9,7 @@ web = "http://www.opc.org/OS/html/V6/1b.html"
 "pdf archive" = "/pdfs/httpwwwopcorgOShtmlV61bhtml.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > Any man whose manner, conduct, thoughts, or attitude is not honorable, worthy of respect and admiration, and dignified does not meet this qualification and should not be a deacon.
 

@@ -9,7 +9,7 @@ web = "http://www.opc.org/OS/html/V1/2f.html"
 "pdf archive" = "/pdfs/httpwwwopcorgOShtmlV12fhtml.pdf"
 +++
 
-#### Quote
+#### Excerpt
 
 > Deacons, in our view, continue their role of serving the congregation in any and every way that frees the elders to most fully do the work of praying, ruling, and teaching according to the Word of God.
 

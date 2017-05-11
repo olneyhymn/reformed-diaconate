@@ -9,7 +9,7 @@ web = "http://www.opc.org/os.html?article_id=409&issue_id=93&pfriendly=Y"
 "pdf archive" = "/pdfs/httpwwwopcorgoshtmlarticleid409issueid93pfriendlyY.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > Deacons are not to be “the servants” of the church in the sense that they personally do anything and everything that needs doing. They are servant-leaders in the church, who on the one hand have hearts willing to do the most menial of tasks for the sake of the body, yet who also have the authority to direct and oversee the involvement of the whole church in such tasks.
 

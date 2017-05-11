@@ -8,7 +8,7 @@ tags = ["None"]
 "buy at cpjournal.com" = "http://www.cpjournal.com/store/"
 +++
 
-#### Quotes
+#### Excerpt
 
 > Our charity towards the membership should be such that it makes the world outside her walls jealous for the faith, hope, and charity within. Thus, our deeds toward one another should and will promote our missionary enterprise among the lod and dying of the world.
 

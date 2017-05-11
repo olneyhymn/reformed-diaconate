@@ -8,7 +8,7 @@ tags = ["None"]
 "buy at cpjournal.com" = "http://www.cpjournal.com/store/"
 +++
 
-#### Quotes
+#### Excerpt
 
 > While the work of the deacon is one of service to the poor and the widows; while the work of the deacon is one of serving tables and making distributions to those in need (thus, handling the monies of the church), we must never lose sight of the fact before us in Acts 6:3—the deacon is to be "full of the Holy Spirit." It is not enough that a man be respected by or successful in the world, he must exhibit a deep spirituality if he is to be considered for the office of deacon.
 >

@@ -9,7 +9,7 @@ web = "http://www.opc.org/OS/html/V9/3c.html"
 "pdf archive" = "/pdfs/httpwwwopcorgOShtmlV93chtml.pdf"
 +++
 
-#### Quotes
+#### Excerpt
 
 > ##### Some Personal Questions for Those Men Considering the Office of Deacon
 >
