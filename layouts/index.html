@@ -1,9 +1,15 @@
 {{ define "main" }}
 
-    <div class="row intro">
-    <div class="col-sm-12 col-lg-6 offset-lg-3 pt-4 intro">
-    {{ partial "intro.html" . }}
-    </div>
+    <div class="row intro py-4">
+        <div class="col-sm-12 col-lg-6 offset-lg-3">
+            <div class="card">
+                <div class="card-block">
+                    <div class="card-text">
+                    {{ partial "intro.html" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="row">
