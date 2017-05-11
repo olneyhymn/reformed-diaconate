@@ -40,6 +40,7 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
+
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
@@ -91,7 +92,7 @@ $link-hover-decoration: underline;
 }
 
 .intro {
-
+  font-size: $font-size-lg;
 }
 
 
