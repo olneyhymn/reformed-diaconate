@@ -2,6 +2,7 @@
 title = "Acts 6"
 description = "The Holy Bible, English Standard Version. Copyright ©2001"
 authors = ["Luke the Evangelist"]
+type = "article"
 tags = ["biblical foundations"]
 image = '/img/esv.png'
 

@@ -3,6 +3,7 @@ title = "Resources for Deacons: Love Expressed through Mercy Ministries"
 description = "Christian Education and Publications of the Presbyterian Church in America (1985)"
 slug = "resources-for-deacons"
 authors = ["Timothy Keller"]
+type = "book"
 tags = ["Diaconal Practice", "Books"]
 image = '/img/keller.jpg'
 

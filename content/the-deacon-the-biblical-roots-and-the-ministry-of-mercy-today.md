@@ -3,6 +3,7 @@ title = "The Deacon: The Biblical Roots and the Ministry of Mercy Today"
 description = "Reformation Heritage Books (2016)"
 slug = "the-deacon-the-biblical-roots-and-the-ministry-of-mercy-today"
 authors = ["Cornelis Van Dam"]
+type = "book"
 tags = ["Books", "Biblical Foundations", "History", "Diaconal Practice"]
 image = '/img/vandam.jpg'
 

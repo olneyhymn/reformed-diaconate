@@ -2,6 +2,7 @@
 title = "The Deacon"
 description = "The Union Seminary Magazine 15.2 (1903): 215-224."
 authors = ["R.C. Reed"]
+type = "article"
 tags = ["Biblical Foundations", "Polity Discussions"]
 
 [sources]

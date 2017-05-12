@@ -2,6 +2,7 @@
 title = "Pointers for Elders and Deacons, Part 3"
 description = "Ordained Servant 3 no. 1 (1994): 3-8."
 authors = ["Committee for the Central Diaconal Conference of Reformed Churches"]
+type = "article"
 tags = ["diaconal practice"]
 
 [sources]

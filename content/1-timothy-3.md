@@ -2,6 +2,7 @@
 title = "1 Timothy 3:8-13"
 description = "The Holy Bible, English Standard Version. Copyright ©2001"
 authors = ["Paul the Apostle"]
+type = "article"
 tags = ["biblical foundations"]
 image = '/img/esv.png'
 

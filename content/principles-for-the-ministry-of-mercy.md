@@ -2,6 +2,7 @@
 title = "Principles for the Ministry of Mercy"
 description = "Orthodox Presbyterian Church Uganda Mission Report."
 authors = ["Orthodox Presbyterian Church"]
+type = "report"
 slug = "principles-for-the-ministry-of-mercy"
 tags = ["diaconal practice", "biblical foundations", "denominational report"]
 

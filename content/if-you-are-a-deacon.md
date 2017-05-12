@@ -2,6 +2,7 @@
 title = "If You Are a Deacon"
 description = "Ordained Servant (2014)."
 authors = ["Nathan Trice"]
+type = "article"
 tags = ["biblical foundations"]
 
 [sources]

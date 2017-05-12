@@ -2,6 +2,7 @@
 title = "The New Testament Deacon"
 description = "Lewis & Roth Publishers (October 1, 1992)."
 authors = ["Alexander Strauch"]
+type = "book"
 tags = ["Books", "Biblical Foundations"]
 image = '/img/strauch.jpg'
 
