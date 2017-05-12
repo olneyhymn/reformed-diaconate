@@ -2,6 +2,7 @@
 title = "PCA Book of Church Order: The Deacon"
 description = "PCA Book of Church Order. Committee on Discipleship Ministries, 2015. Part 1, Chapter 9."
 authors = ["Presbyterian Church in America"]
+type = "book"
 tags = ["book of church order"]
 image = '/img/pca.jpg'
 

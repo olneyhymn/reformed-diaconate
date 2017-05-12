@@ -2,6 +2,7 @@
 title = "The Biblical Foundation of the Diaconate"
 description = "Ordained Servant 5 no. 3 (1996): 66-68."
 authors = ["George W. Knight III"]
+type = "article"
 tags = ["Biblical Foundations"]
 
 [sources]

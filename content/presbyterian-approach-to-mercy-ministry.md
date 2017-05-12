@@ -2,6 +2,7 @@
 title = "A Presbyterian Approach to Mercy Ministry"
 description = "Ordained Servant (2017)."
 authors = ["Nathan Trice"]
+type = "article"
 tags = ["polity discussions", "diaconal practice"]
 slug = "presbyterian-approach-to-mercy-ministry"
 

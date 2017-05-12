@@ -2,6 +2,7 @@
 title = "On Fasting, Death, and Joy: Reflections on My Upcoming Ordination"
 description = "Ordained Servant, (2014)."
 authors = ["Hugh Lynn"]
+type = "article"
 tags = ["biblical foundations"]
 
 [sources]

@@ -2,6 +2,7 @@
 title = "Reforming the Diaconate, Part 3"
 description = "Ordained Servant 2 no. 1 (1993): 16-18."
 authors = ["William Shishko"]
+type = "article"
 tags = ["Diaconal Practice"]
 
 [sources]

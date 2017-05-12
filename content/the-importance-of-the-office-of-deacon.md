@@ -2,6 +2,7 @@
 title = "The Importance of the Office of Deacon"
 description = "The Southern Presbyterian Review 32 no. 1 (1881): 1-29."
 authors = ["John L. Girardeau"]
+type = "article"
 tags = ["Polity Discussions", "Biblical Foundations"]
 
 [sources]

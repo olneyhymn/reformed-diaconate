@@ -1,6 +1,7 @@
 +++
 title = "Report of the Subcommittee Diaconal Ministries"
 authors = ["Presbyterian Church in America"]
+type = "report"
 description = "PCA Study Committee Report (1978)."
 tags = ["Denominational Report", "Diaconal Practice"]
 

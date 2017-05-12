@@ -1,6 +1,7 @@
 +++
 title = "Office of Diaconate in the Churches"
 authors = ["United Reformed Churches in North America"]
+type = "article"
 description = "URCNA Study Committee Report (1997)."
 tags = ["Denominational Report", "History", "Biblical Foundations", "Polity Discussions"]
 

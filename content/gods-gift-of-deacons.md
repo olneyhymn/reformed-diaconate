@@ -2,6 +2,7 @@
 title = "God's Gift of Deacons"
 description = "New Horizons (2010)."
 authors = ["Ronald Pearce"]
+type = "article"
 tags = ["biblical foundations"]
 
 [sources]

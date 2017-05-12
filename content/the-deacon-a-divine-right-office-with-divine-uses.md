@@ -2,6 +2,7 @@
 title = "The Deacon: A Divine Right Office with Divine Uses"
 description = "Confessional Presbyterian Journal 5 (2009): 185-199."
 authors = ["C. Nick Willborn"]
+type = "article"
 tags = ["Biblical Foundations", "History", "Diaconal Practice"]
 image = '/img/cpj5.jpg'
 

@@ -2,6 +2,7 @@
 title = "Biblical Qualifications for Deacons, Part 3"
 description = "Ordained Servant 6 no. 3 (1997): 49-54."
 authors = ["Archibald Alexander Allison"]
+type = "article"
 tags = ["biblical foundations"]
 
 [sources]
