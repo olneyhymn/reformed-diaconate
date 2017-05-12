@@ -3,7 +3,7 @@ title = "Acts 6"
 description = "The Holy Bible, English Standard Version. Copyright ©2001"
 authors = ["Luke the Evangelist"]
 tags = ["biblical foundations"]
-image = '/img/esv.jpg'
+image = '/img/esv.png'
 
 [sources]
 "esv.org" = "https://www.esv.org/Acts+6/"
