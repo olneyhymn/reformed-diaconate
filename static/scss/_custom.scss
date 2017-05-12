@@ -137,28 +137,19 @@ blockquote {
   }
 }
 
-.grid-item,
-.grid-sizer {
-  @include media-breakpoint-down(sm) {
-    background-color: red;
-    width: 95%;
-  }
-  @include media-breakpoint-only(md) {
-    background-color: green;
-    width: 45%;
-  }
-  @include media-breakpoint-up(lg) {
-    background-color: blue;
-    width: 30%;
-  }
-}
-
 .active {
   font-weight: bold;
 }
 
+#card-container {
+  [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 .card {
-  box-shadow: 3px 3px 2px rgba(0, 0, 0, .3);
+  border: 3px solid $brand-primary;
 }
 
 .card .list-group-item {
