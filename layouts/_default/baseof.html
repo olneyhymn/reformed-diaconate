@@ -74,12 +74,11 @@
   <div class="caption">Second Presbyterian Church in Charleston, South Carolina</div>
   </div>
 
+  {{ block "main" . }}
+    <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
 
   <div class="container">
-
-      {{ block "main" . }}
-        <!-- The part of the page that begins to differ between templates -->
-      {{ end }}
     <div class="row">
       <div class="col-sm-10 offset-sm-1">
         <hr />
