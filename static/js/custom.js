@@ -25,8 +25,7 @@ $(document).ready(function() {
     $('#filter-works a').click(function(e) {
         e.preventDefault();
 
-        $('#filter-works li').removeClass('active');
-        $(this).parent('li').addClass('active');
+        $(this).addClass('active').siblings().removeClass('active');
 
         var category = $(this).attr('data-filter');
 

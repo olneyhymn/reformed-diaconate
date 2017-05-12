@@ -40,20 +40,20 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
-.list-inline-item:not(:last-child) {
-  margin-right: 0;
-}
-
-.list-inline-item {
+#filter-works {
   font-family: $font-family-sans-serif;
-  float: left;
-}
-.list-inline-item + .list-inline-item::before {
-  padding-right: .5rem;
-  padding-left: .5rem;
-  content: "|";
-}
 
+  $a-tags: 'a, a:active, a:hover, a:visited';
+  $a-tags-hover: 'a:active, a:hover';
+
+  #{$a-tags} {
+    color: $brand-danger;
+    text-decoration: none;
+  }
+  #{$a-tags-hover} {
+    text-decoration: underline;
+  }
+}
 
 .title {
   font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; font-weight: bold;
