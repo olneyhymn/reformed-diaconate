@@ -4,8 +4,11 @@
     <div class="grid-sizer"></div>
     {{ range .Data.Pages.ByTitle }}
     <div class="grid-item mb-3 rounded card bg-faded {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
+        {{ $permalink := .Permalink }}
         {{ with .Params.image }}
+            <a href="{{ $permalink }}">
                 <img class="card-img-top" src='{{ . }}' width="100%">
+            </a>
         {{ end }}
         <div class="card-block pb-1">
             <h5 class="card-title mb-1"><a href="{{ .Permalink }}" class="no-underline">{{ .Title }}</a></h5>
