@@ -121,10 +121,6 @@ blockquote {
   padding-top: 5px;
 }
 
-.pdfbox {
-  padding-top: 50px;
-}
-
 .pdfembed {
   @include media-breakpoint-down(sm) {
     height: 400px;
