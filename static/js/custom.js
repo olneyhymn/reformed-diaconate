@@ -18,6 +18,7 @@ $(document).ready(function() {
       columnWidth: '.grid-sizer',
       isResizable: true,
       isAnimated: !Modernizr.csstransitions,
+      gutter: 20
     });
 
 
