@@ -40,15 +40,10 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
-
 .list-inline-item:not(:last-child) {
   margin-right: 0;
 }
-.list-inline::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .list-inline-item {
   font-family: $font-family-sans-serif;
   float: left;
@@ -145,23 +140,36 @@ blockquote {
 .grid-sizer {
   @include media-breakpoint-down(sm) {
     background-color: red;
-    width: 100%;
+    width: 95%;
   }
   @include media-breakpoint-only(md) {
     background-color: green;
-    width: 50%;
+    width: 45%;
   }
   @include media-breakpoint-up(lg) {
     background-color: blue;
-    width: 33%;
+    width: 30%;
   }
 }
+
+.active {
+  font-weight: bold;
+}
+
+.card-container {
+  margin-left: -50px;
+  margin-right: -50px;
+  padding: 2em;
+}
+
+$card-spacer-y: 3rem;
 
 #card-container {
   width: 100%;
 }
 
 .grid-item {
+  margin-bottom: 20px;
   float: left;
   background: #D26;
   border: 2px solid #333;
