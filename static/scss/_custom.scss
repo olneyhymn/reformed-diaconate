@@ -156,25 +156,12 @@ blockquote {
   font-weight: bold;
 }
 
-.card-container {
-  margin-left: -50px;
-  margin-right: -50px;
-  padding: 2em;
+.card {
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, .3);
 }
 
-$card-spacer-y: 3rem;
-
-#card-container {
-  width: 100%;
-}
-
-.grid-item {
-  margin-bottom: 20px;
-  float: left;
-  background: #D26;
-  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.5);
-  border-radius: 5px;
+.card .list-group-item {
+  font-family: $font-family-sans-serif;
 }
 
 #card-container .card {
