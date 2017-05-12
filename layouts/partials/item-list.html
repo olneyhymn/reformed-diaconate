@@ -3,7 +3,7 @@
 <div class="grid" id="card-container">
     <div class="grid-sizer"></div>
     {{ range .Data.Pages.ByTitle }}
-    <div class="grid-item mb-3 rounded card {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
+    <div class="grid-item mb-3 rounded card bg-faded {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
         {{ with .Params.image }}
                 <img class="card-img-top" src='{{ . }}' width="100%">
         {{ end }}

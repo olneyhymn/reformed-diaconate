@@ -59,7 +59,7 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-inverse bg-info justify-content-end">
+  <nav class="navbar fixed-top navbar-primary bg-faded justify-content-end">
     <ul class="navbar-nav">
       <li class="float-sm-right navbar-brand ml-auto "><a class="navbar-brand" href="/">Home</a></li>
     </ul>
@@ -73,7 +73,6 @@
       </div>
     </div>
   </div>
-  <div class="caption">Second Presbyterian Church in Charleston, South Carolina</div>
   </div>
 
   {{ block "main" . }}
@@ -82,13 +81,17 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-sm-10 offset-sm-1">
-        <hr />
+      <div class="col-sm-10 offset-sm-1 text-center">
+      {{ partial "social.html" . }}
+
         <p class="remove-bottom">
             <a href="http://goo.gl/forms/Xemi1NRoOC">Feedback, questions, or recommended resources?</a>
             Copyright &copy;
             <script language="javascript" type="text/javascript">document.write((new Date()).getFullYear())</script>
             <a href="http://olneyhymn.github.io">Olney Hymn</a>.
+        </p>
+        <p class="remove-bottom">
+        Header photo of <a href="https://en.wikipedia.org/wiki/Second_Presbyterian_Church_(Charleston,_South_Carolina)#/media/File:Second_Pres_1892.PNG"target="_blank">Second Presbyterian Church in Charleston, South Carolina</a>.
         </p>
       </div>
     </div>
