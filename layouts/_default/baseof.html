@@ -79,13 +79,15 @@
     <!-- The part of the page that begins to differ between templates -->
   {{ end }}
 
-  <div class="container">
+  <div class="container-fluid bg-faded pt-4 mt-4">
     <div class="row">
       <div class="col-sm-10 offset-sm-1 text-center">
       {{ partial "social.html" . }}
 
-        <p class="remove-bottom">
+        <p class="remove-bottom mt-2">
             <a href="http://goo.gl/forms/Xemi1NRoOC">Feedback, questions, or recommended resources?</a>
+        </p>
+        <p class="remove-bottom">
             Copyright &copy;
             <script language="javascript" type="text/javascript">document.write((new Date()).getFullYear())</script>
             <a href="http://olneyhymn.github.io">Olney Hymn</a>.
