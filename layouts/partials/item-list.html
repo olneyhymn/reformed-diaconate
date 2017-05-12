@@ -1,4 +1,4 @@
-<div class="container-fluid  bg-success py-4"><div class="container">
+<div class="container-fluid  bg-success pb-4"><div class="container">
     <div class="grid pt-4" id="card-container">
         <div class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
         {{ range .Data.Pages.ByTitle }}
@@ -7,7 +7,7 @@
                 {{ $permalink := .Permalink }}
                 {{ with .Params.image }}
                     <a href="{{ $permalink }}">
-                        <img class="card-img-top" src='{{ . }}' width="100%">
+                        <img class="card-img-top hidden-sm-down" src='{{ . }}' width="100%">
                     </a>
                 {{ end }}
                 <div class="card-block pb-1">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 {{ with .Params.sources }}
-                  <ul class="list-group list-group-flush">
+                  <ul class="list-group list-group-flush hidden-sm-down">
                     {{ range $key, $value := . }}
                         <li class="list-group-item"><a href="{{ $value }}" target="_blank">
                         <i class="fa fa-external-link" aria-hidden="true"></i>
