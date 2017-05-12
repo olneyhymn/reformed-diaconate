@@ -16,7 +16,6 @@ preview:
 clean:
 	# Delete local build
 	rm -rf public
-	rm -rf static/_css
 
 deploy:
 	# Deploy site to heroku
