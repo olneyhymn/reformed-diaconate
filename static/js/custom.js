@@ -29,7 +29,7 @@ $(document).ready(function() {
 
         var category = $(this).attr('data-filter');
 
-        $('#card-container .card').each(function() {
+        $('#card-container .grid-item').each(function() {
             if ($(this).is(category)) {
                 $(this).removeClass('filtered');
             } else {

@@ -156,7 +156,7 @@ blockquote {
   font-family: $font-family-sans-serif;
 }
 
-#card-container .card {
+#card-container .grid-item {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
@@ -166,7 +166,7 @@ blockquote {
     overflow:hidden;
 }
 
-#card-container .card.filtered{
+#card-container .grid-item.filtered{
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     transform:scale(0);
