@@ -25,7 +25,7 @@
           {{ range $key, $value := . }}
             {{ if eq $key "pdf archive" }}
 
-            <div class="pdfbox">
+            <div class="pt-4">
             <embed class="pdfembed" src="{{ $value }}" width="100%" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
             </div>
             {{ end }}
