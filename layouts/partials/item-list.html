@@ -6,8 +6,8 @@
             <div class="rounded card bg-faded m-2">
                 {{ $permalink := .Permalink }}
                 {{ with .Params.image }}
-                    <a href="{{ $permalink }}">
-                        <img class="card-img-top hidden-sm-down" src='{{ . }}' width="100%">
+                    <a href="{{ $permalink }}" class="hidden-sm-down">
+                        <img class="card-img-top" src='{{ . }}' width="100%">
                     </a>
                 {{ end }}
                 <div class="card-block pb-1">
