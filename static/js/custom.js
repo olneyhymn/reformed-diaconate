@@ -11,7 +11,7 @@ $(document).ready(function() {
         parallax();
     });
 
-    $('#card-container').masonry({
+    var $grid = $('#card-container').masonry({
       // set itemSelector so .grid-sizer is not used in layout
       itemSelector: '.grid-item:not(.filtered)',
       // use element for option
@@ -19,6 +19,10 @@ $(document).ready(function() {
       isResizable: true,
       isAnimated: !Modernizr.csstransitions,
       gutter: 0
+    });
+
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
     });
 
 
