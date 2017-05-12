@@ -1,15 +1,36 @@
-<ul>
-  {{ with .Params.sources }}
-    <li>
-      {{ range $key, $value := . }}<a href="{{ $value }}">[{{ $key }}]</a> {{ end }}
-    </li>
-  {{ end }}
-  {{ with .Params.authors }}
-    <li>
-      {{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/" class="no-underline">{{ $e }}</a>{{ end }}
-    </li>
-  {{ end }}
-  <li class='url'>
-    {{ .Description }}
-  </li>
-</ul>
+<div class="container">
+  <div class="row mt-4">
+    <div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <h2 class="pb-1"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+        <ul>
+          {{ with .Params.sources }}
+            <li>
+              {{ range $key, $value := . }}<a href="{{ $value }}">[{{ $key }}]</a> {{ end }}
+            </li>
+          {{ end }}
+          {{ with .Params.authors }}
+            <li>
+              {{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="/authors/{{ $e | urlize }}/" class="no-underline">{{ $e }}</a>{{ end }}
+            </li>
+          {{ end }}
+          <li class='url'>
+            {{ .Description }}
+          </li>
+        </ul>
+
+        {{ .Content }}
+
+        {{ with .Params.sources }}
+          {{ range $key, $value := . }}
+            {{ if eq $key "pdf archive" }}
+
+            <div class="pdfbox">
+            <embed class="pdfembed" src="{{ $value }}" width="100%" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+            </div>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+    </div>
+  </div>
+</div>
