@@ -4,6 +4,7 @@ description = "Christian Education and Publications of the Presbyterian Church i
 slug = "resources-for-deacons"
 authors = ["Timothy Keller"]
 tags = ["Diaconal Practice", "Books"]
+image = '/img/keller.jpg'
 
 [sources]
 "buy at wtsbooks.com" = "http://www.wtsbooks.com/resources-for-deacons-tim-keller-9780970354167"

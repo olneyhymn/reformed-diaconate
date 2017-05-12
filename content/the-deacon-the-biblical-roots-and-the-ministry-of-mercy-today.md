@@ -4,6 +4,7 @@ description = "Reformation Heritage Books (2016)"
 slug = "the-deacon-the-biblical-roots-and-the-ministry-of-mercy-today"
 authors = ["Cornelis Van Dam"]
 tags = ["Books", "Biblical Foundations", "History", "Diaconal Practice"]
+image = '/img/vandam.jpg'
 
 [sources]
 "buy at wtsbooks.com" = "http://www.wtsbooks.com/deacon-cornelis-van-dam-9781601785114"
