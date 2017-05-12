@@ -50,6 +50,7 @@ $link-hover-decoration: underline;
   clear: both;
 }
 .list-inline-item {
+  font-family: $font-family-sans-serif;
   float: left;
 }
 .list-inline-item + .list-inline-item::before {
