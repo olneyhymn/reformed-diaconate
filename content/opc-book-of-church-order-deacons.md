@@ -3,6 +3,7 @@ title = "OPC Book of Church Order: Deacons"
 description = "The Book of Church Order of the Orthodox Presbyterian Church: Form of Government. The Committee on Christian Education of the Orthodox Presbyterian Church, 2015. Chapter XI."
 authors = ["Orthodox Presbyterian Church"]
 tags = ["book of church order"]
+image = '/img/opc.jpg'
 
 [sources]
 "full pdf" = "http://opc.org/BCO/BCO_2015.pdf"

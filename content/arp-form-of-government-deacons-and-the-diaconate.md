@@ -3,6 +3,7 @@ title = "ARP Form of Government: Deacons and the Diaconate"
 description = "Form of Government.  General Synod of the Associate Reformed Presbyterian Church, 2014. Chapter 5."
 authors = ["Associate Reformed Presbyterian Church"]
 tags = ["book of church order"]
+image = '/img/arp.png'
 
 [sources]
 "full pdf" = "http://www.arpsynod.org/downloads/Form%20of%20Government.pdf"
