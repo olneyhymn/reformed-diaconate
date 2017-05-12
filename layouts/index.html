@@ -21,8 +21,7 @@
                 <a href="#" data-filter=".{{ $key | urlize }}">{{ $key | humanize | title }}</a> &mdash;
             {{ end }}
     </div></div>
-
-
-    {{ partial "item-list.html" . }}
 </div>
+
+{{ partial "item-list.html" . }}
 {{ end }}
