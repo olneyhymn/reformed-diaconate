@@ -1,7 +1,10 @@
-all: clean push
+all: clean build push
 	# Rebuild pages
-	hugo --verbose
 	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
+
+build:
+	hugo --verbose
+	sass static/scss/bootstrap.scss:public/_css/bootstrap.css static/scss/bootstrap-grid.scss:public/_css/bootstrap-grid.css static/scss/bootstrap-reboot.scss:public/_css/bootstrap-reboot.scss
 
 scss:
 	sass --watch static/scss/bootstrap.scss:static/_css/bootstrap.css static/scss/bootstrap-grid.scss:static/_css/bootstrap-grid.css static/scss/bootstrap-reboot.scss:static/_css/bootstrap-reboot.scss
