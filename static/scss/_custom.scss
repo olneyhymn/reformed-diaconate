@@ -102,10 +102,10 @@ blockquote {
   font-style: italic;
   margin: 0em;
   padding: 1.5em;
-  border-left: 4px solid rgba(176, 196, 222, 0.5);
+  border-left: 4px solid $brand-primary;
   border-radius: 5px;
   text-align: justify;
-  background-color: rgba(176, 196, 222, 0.1);
+  background-color: darken($body-bg, 3%);
   p:last-child {
     margin-bottom: 0;
   }
