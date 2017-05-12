@@ -1,33 +1,31 @@
-<div class="row">
+<div class="row py-4">
 <div class="col-lg-10 offset-lg-1 col-md-12">
 <div class="grid" id="card-container">
     <div class="grid-sizer"></div>
     {{ range .Data.Pages.ByTitle }}
-    <div class="grid-item card {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
-        <div class="card-block">
-<!--             {{ with .Params.image }}
-                <img class="card-img-top img-responsive" src='{{ . }}' width="100%">
-            {{ end }} -->
-            <h5 class="card-title"><a href="{{ .Permalink }}" class="no-underline">{{ .Title }}</a></h5>
+    <div class="grid-item mb-3 rounded card {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
+        {{ with .Params.image }}
+                <img class="card-img-top" src='{{ . }}' width="100%">
+        {{ end }}
+        <div class="card-block pb-1">
+            <h5 class="card-title mb-1"><a href="{{ .Permalink }}" class="no-underline">{{ .Title }}</a></h5>
             <div class="card-text">
-            <ul class="list-unstyled mb-0">
-                <li>
-                    {{ with .Params.authors }}
+                {{ with .Params.authors }}
                     {{ $len := len . }}
                     Author{{ if gt $len 1 }}s{{ end }}: {{ range $i, $e := . }}{{ if $i }}, {{ end }}
                     <a href="/authors/{{ $e | urlize }}/">{{ $e }}</a>{{ end }}
-                </li>
                 {{ end }}
-            {{ with .Params.sources }}
-                <li>
-                Read:
-                {{ range $key, $value := . }}
-                    <a href="{{ $value }}">[{{ $key }}]</a> {{ end }}
-                </li>
-            {{ end }}
-            </ul>
             </div>
         </div>
+        {{ with .Params.sources }}
+          <ul class="list-group list-group-flush">
+            {{ range $key, $value := . }}
+                <li class="list-group-item"><a href="{{ $value }}" target="_blank">
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+ {{ $key }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
     </div>
     {{ end }}
 </div>
