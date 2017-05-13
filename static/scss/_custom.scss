@@ -40,6 +40,12 @@ $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
 
+$navbar-padding-y: 0px;
+
+.navbar {
+  border-bottom: 1px solid rgba($black,.125);
+}
+
 #filter-works {
   font-family: $font-family-sans-serif;
 
@@ -144,8 +150,13 @@ blockquote {
   }
 }
 
-.card {
-  border: 3px solid $brand-primary;
+$card-border-width: 0px;
+
+.icon-corner {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: $card-border-radius;
+    border-bottom-left-radius: 0;
 }
 
 .card .list-group-item {

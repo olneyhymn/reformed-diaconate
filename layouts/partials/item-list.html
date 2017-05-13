@@ -33,12 +33,12 @@
                             {{ range $key, $value := . }}
                                 <li class="list-group-item"><a href="{{ $value }}" target="_blank">
                                 <i class="fa fa-external-link" aria-hidden="true"></i>
-                 {{ $key }}</a></li>
+                                {{ $key }}</a></li>
                             {{ end }}
                           </ul>
                         {{ end }}
                     </div>
-                    <div class="col-sm-3 bg-info text-center text-white d-flex justify-content-center align-self-stretch rounded">
+                    <div class="col-sm-3 icon-corner bg-info text-center text-white d-flex justify-content-center align-self-stretch">
                         <div class="align-self-center">
                             {{ partial "icon.html" . }}
                         </div>
