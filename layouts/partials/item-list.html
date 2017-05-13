@@ -11,7 +11,12 @@
                     </a>
                 {{ end }}
                 <div class="card-block pb-1">
-                    <h5 class="card-title mb-1"><a href="{{ .Permalink }}" class="no-underline">{{ .Title }}</a></h5>
+                    <h5 class="card-title mb-1"><a href="{{ .Permalink }}" class="no-underline">
+                        <span class="hidden-md-up">
+                            {{ partial "icon.html" . }}
+                        </span>
+                        {{ .Title }}
+                    </a></h5>
                     <div class="card-text">
                         {{ with .Params.authors }}
                             {{ $len := len . }}
@@ -20,10 +25,11 @@
                         {{ end }}
                     </div>
                 </div>
-                <div class="container-fluid mx-0"><div class="row">
+                <div class="container-fluid mx-0 hidden-sm-down">
+                <div class="row">
                     <div class="col-sm-9">
                         {{ with .Params.sources }}
-                          <ul class="list-group list-group-flush hidden-sm-down">
+                          <ul class="list-group list-group-flush">
                             {{ range $key, $value := . }}
                                 <li class="list-group-item"><a href="{{ $value }}" target="_blank">
                                 <i class="fa fa-external-link" aria-hidden="true"></i>
@@ -33,14 +39,12 @@
                         {{ end }}
                     </div>
                     <div class="col-sm-3 bg-info text-center text-white d-flex justify-content-center align-self-stretch rounded">
-                        <small class="align-self-center">
-                            {{ if eq .Params.type "book" }}<i class="fa fa-book fa-2x" aria-hidden="true"></i>{{ end }}
-                            {{ if eq .Params.type "article" }}<i class="fa fa-file-text fa-2x" aria-hidden="true"></i>{{ end }}
-                            {{ if eq .Params.type "report" }}<i class="fa fa-pencil fa-2x" aria-hidden="true"></i>{{ end }}
-
-                        </small>
+                        <div class="align-self-center">
+                            {{ partial "icon.html" . }}
+                        </div>
                     </div>
-                </div></div>
+                </div>
+                </div>
             </div>
         </div>
         {{ end }}
