@@ -143,6 +143,10 @@ blockquote {
   font-weight: bold;
 }
 
+.card-border {
+  border: 1px solid $card-border-color !important;
+}
+
 #card-container {
   [class*="col-"] {
     padding-left: 0 !important;
