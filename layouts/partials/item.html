@@ -2,7 +2,7 @@
   <div class="row mt-4">
     <div class="col-sm-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
       <h2 class="pb-1"><a href="{{ .Permalink }}">
-        <i class="fa fa-file-text" aria-hidden="true"></i> {{ .Title }}
+        {{ partial "icon.html" . }} {{ .Title }}
       </a></h2>
 
         <ul>

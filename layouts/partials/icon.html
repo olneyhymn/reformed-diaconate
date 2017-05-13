@@ -1,0 +1,5 @@
+{{ with .Params.type }}
+{{ if eq . "book" }}<i class='fa fa-book fa-1x' aria-hidden="true"></i>{{ end }}
+{{ if eq . "article" }}<i class='fa fa-file-text' aria-hidden="true"></i>{{ end }}
+{{ if eq . "report" }}<i class='fa fa-pencil' aria-hidden="true"></i>{{ end }}
+{{ end }}
