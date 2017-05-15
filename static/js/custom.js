@@ -25,6 +25,11 @@ $(document).ready(function() {
       $grid.masonry('layout');
     });
 
+    $('.expand').click(function(e) {
+      $(this).hide();
+      $(this).closest('.card').find('.hidden-sm-down').removeClass('hidden-sm-down');
+      $('#card-container').masonry('layout');
+    });
 
     $('#filter-works a').click(function(e) {
         e.preventDefault();
