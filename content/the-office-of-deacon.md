@@ -16,4 +16,4 @@ web = "http://pcahistory.org/topicalresources/deacons/OfficeOfDeacon.pdf"
 
 ------
 
-> We have finished all that we designed in this article; which was, to prove that by the Constitution of the Presbyterian Church, the Dea- cons are the proper officers to manage all the temporalities of the Church. We belong to the strict construction party. If the Con- stitution is wrong, let it be regularly and formally altered ; but do not let us sneer at, and trample upon any part of that instrument which we have vowed to support entire.
+> We have finished all that we designed in this article; which was, to prove that by the Constitution of the Presbyterian Church, the Deacons are the proper officers to manage all the temporalities of the Church. We belong to the strict construction party. If the Constitution is wrong, let it be regularly and formally altered ; but do not let us sneer at, and trample upon any part of that instrument which we have vowed to support entire.
