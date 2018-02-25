@@ -4,7 +4,7 @@ description = "Moody Publishers (October 6, 2015)"
 authors = ["Steve Corbett", "Brian Fikkert", "Katie Casselberry"]
 type = "book"
 tags = ["Diaconal Practice"]
-image = '/img/fickkert.jpg'
+image = '/img/fikkert.jpg'
 
 [sources]
 "buy at amazon.com" = "http://amzn.to/2ES2Q7B"

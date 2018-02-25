@@ -1,4 +1,4 @@
-all: clean build push
+all: pull clean build push
 	# Rebuild pages
 	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
 
@@ -16,6 +16,7 @@ preview:
 clean:
 	# Delete local build
 	rm -rf public
+	find . -name .DS_Store | xargs rm
 
 deploy:
 	# Deploy site to heroku
@@ -24,6 +25,9 @@ deploy:
 push:
 	# Push to github
 	git push
+
+pull:
+	git pull
 
 pdfs:
 	# Generate PDFs from HTML pages (esp opc.org pages)
