@@ -1,7 +1,7 @@
 +++
 title = "Helping Without Hurting in Church Benevolence: A Practical Guide to Walking with Low-Income People"
 description = "Moody Publishers (October 6, 2015)"
-authors = ["Steve Corbett ‎, "Brian Fikkert",‎ "Katie Casselberry"]
+authors = ["Steve Corbett", "Brian Fikkert", "Katie Casselberry"]
 type = "book"
 tags = ["Diaconal Practice"]
 image = '/img/fickkert.jpg'
@@ -17,4 +17,3 @@ image = '/img/fickkert.jpg'
 -------------
 
 > If your church does not take the time to develop a philosophy and policy document, your benevolence ministry will lack the compass it needs to keep moving in the right direction.
-
