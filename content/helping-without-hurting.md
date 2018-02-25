@@ -3,7 +3,7 @@ title = "Helping Without Hurting in Church Benevolence: A Practical Guide to Wal
 description = "Moody Publishers (October 6, 2015)"
 authors = ["Steve Corbett", "Brian Fikkert", "Katie Casselberry"]
 type = "book"
-tags = ["Diaconal Practice"]
+tags = ["Diaconal Practice", "Books"]
 image = '/img/fikkert.jpg'
 
 [sources]
