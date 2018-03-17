@@ -1,7 +1,7 @@
 +++
 title = "The deaconship: a treatise, with suggestions for its revival in the Church of Scotland"
 description = "John Johnstone (1842)"
-slug = "the-deaconship"
+slug = "the-deaconship-a-treatise"
 authors = ["John G. Lorimer"]
 type = "book"
 tags = ["Books", "Biblical Foundations", "History", "Diaconal Practice"]
