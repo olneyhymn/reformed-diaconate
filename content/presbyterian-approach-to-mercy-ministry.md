@@ -1,5 +1,6 @@
 +++
 title = "A Presbyterian Approach to Mercy Ministry"
+source = "Ordained Servant"
 description = "Ordained Servant (2017)."
 authors = ["Nathan Trice"]
 type = "article"

@@ -1,5 +1,6 @@
 +++
 title = "The Spiritual Nature of the Office of Deacon"
+source = "Ordained Servant"
 description = "Ordained Servant (2017)"
 authors = ["Carl Carlson"]
 type = "article"

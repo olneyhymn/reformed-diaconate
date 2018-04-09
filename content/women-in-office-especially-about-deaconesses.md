@@ -1,5 +1,6 @@
 +++
 title = "Women in Office, Especially About \"Deaconesses\""
+source = "Ordained Servant"
 description = "Ordained Servant 7 no. 4 (1998): 75-77."
 authors = ["Soon-Gil Hur"]
 type = "report"

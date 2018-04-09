@@ -1,5 +1,6 @@
 +++
 title = "A Training Program for Deacons"
+source = "Ordained Servant"
 description = "Ordained Servant 9 no. 3 (2000): 62-70."
 authors = ["William Shishko"]
 type = "article"

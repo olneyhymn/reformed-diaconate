@@ -1,5 +1,6 @@
 +++
 title = "Reforming the Diaconate, Part 1"
+source = "Ordained Servant"
 description = "Ordained Servant 1 no. 2 (1992): 43-45."
 authors = ["William Shishko"]
 type = "article"

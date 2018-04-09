@@ -1,5 +1,6 @@
 +++
 title = "Some Old Testament Roots and Their Continuing Significance"
+source = "Ordained Servant"
 description = "Ordained Servant 1 no. 1 (1992): 14-21."
 authors = ["Cornelis Van Dam"]
 type = "article"

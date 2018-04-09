@@ -1,5 +1,6 @@
 +++
 title = "Biblical Qualifications for Deacons, Part 1"
+source = "Ordained Servant"
 description = "Ordained Servant 6 no. 1 (1997): 4-9."
 authors = ["Archibald Alexander Allison"]
 type = "article"

@@ -1,5 +1,6 @@
 +++
 title = "Pointers for Elders and Deacons, Part 3"
+source = "Ordained Servant"
 description = "Ordained Servant 3 no. 1 (1994): 3-8."
 authors = ["Committee for the Central Diaconal Conference of Reformed Churches"]
 type = "article"

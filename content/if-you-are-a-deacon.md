@@ -1,5 +1,6 @@
 +++
 title = "If You Are a Deacon"
+source = "Ordained Servant"
 description = "Ordained Servant (2014)."
 authors = ["Nathan Trice"]
 type = "article"

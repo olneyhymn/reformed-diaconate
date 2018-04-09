@@ -1,5 +1,6 @@
 +++
 title = "The Deacons"
+source = "Ordained Servant"
 description = "Ordained Servant 1 no. 1 (1992): 21."
 authors = ["John Calvin"]
 type = "article"

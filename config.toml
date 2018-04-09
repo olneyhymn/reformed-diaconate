@@ -4,5 +4,6 @@ title = "Readings in the Reformed Diaconate"
 [taxonomies]
   author = "authors"
   tag = "tags"
+  source = "source"
 [params]
   simpleurl = "ReformedDeacon.com"

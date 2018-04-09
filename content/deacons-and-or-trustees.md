@@ -1,5 +1,6 @@
 +++
 title = "Deacons and/or Trustees?"
+source = "Ordained Servant"
 description = "Ordained Servant 4 no. 1 (1995): 20-22."
 authors = ["Roger Schmurr"]
 type = "article"

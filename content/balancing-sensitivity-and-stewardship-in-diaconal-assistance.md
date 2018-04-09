@@ -1,5 +1,6 @@
 +++
 title = "Balancing Sensitivity and Stewardship in Diaconal Assistance"
+source = "Ordained Servant"
 description = "Ordained Servant 7 no. 3 (1998): 67."
 authors = ["Board of Deacons at the Orthodox Presbyterian Church of Franklin Square"]
 type = "article"

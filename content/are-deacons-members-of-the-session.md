@@ -1,5 +1,6 @@
 +++
 title = "Are Deacons Members of the Session?"
+source = "Ordained Servant"
 description = "Ordained Servant 2 no. 4 (1993): 75-78."
 authors = ["R. Dean Anderson Jr."]
 type = "article"
