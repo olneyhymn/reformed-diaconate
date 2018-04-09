@@ -12,7 +12,7 @@ web = "http://pcahistory.org/HCLibrary/periodicals/spr/v12/12-1-1.pdf"
 
 #### Excerpt
 
-> That indeed, is a sadly defective state of the church where there are no poor, there mud be something very deficient in its zeal and aggressiveness, if amidd the multitudes of poor around us, and mingling with us, there are none in the church itself.
+> That indeed, is a sadly defective state of the church where there are no poor, there must be something very deficient in its zeal and aggressiveness, if amidst the multitudes of poor around us, and mingling with us, there are none in the church itself.
 
 -------
 
