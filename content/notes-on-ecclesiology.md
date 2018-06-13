@@ -1,7 +1,7 @@
 +++
 title = "Notes on Ecclesiology: The Deacon's Office"
 description = "Presbyterian Committee of Publication (1892)."
-authors = ["Thomas Peck"]
+authors = ["Thomas E. Peck"]
 type = "book"
 tags = ["Biblical Foundations"]
 
