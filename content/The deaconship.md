@@ -10,7 +10,7 @@ image = '/img/lorimer.png'
 [sources]
 "google books" = "https://books.google.com/books/about/The_deaconship_a_treatise_with_suggestio.html?id=MRlP6Z2wfDkC"
 "archive.org (pdf)" = "https://archive.org/details/deaconshiptreati00lori"
-"buy at amazon.com" = "http://amzn.to/2HHQs74"
+"buy at amazon.com" = "https://amzn.to/2GLYJYT"
 +++
 
 > Our blessed Lord does not, like some of his professed followers, make light of temporal wants.
