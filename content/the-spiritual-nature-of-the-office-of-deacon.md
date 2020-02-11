@@ -7,7 +7,7 @@ type = "article"
 tags = ["biblical foundations", "diaconal practice"]
 
 [sources]
-web = "http://www.opc.org/OS/html/V4/1b.html"
+web = "https://opc.org/os.html?article_id=638&issue_id=127"
 +++
 
 #### Excerpt
