@@ -7,7 +7,7 @@ tags = ["book of church order"]
 image = '/img/arp.png'
 
 [sources]
-"full pdf" = "http://www.arpsynod.org/downloads/Form%20of%20Government.pdf"
+"full pdf" = "http://arpchurch.org/wp-content/uploads/2018/05/FOG-2016.pdf"
 "chapter text" = "/arp-form-of-government-deacons-and-the-diaconate/"
 +++
 
