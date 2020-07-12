@@ -1,6 +1,7 @@
 +++
 title = "The Gospel and the Deacon"
 source = "gracecovenantpca.org"
+description = "Grace Covenant PCA Pastor's Papers"
 authors = ["Christopher Hutchinson"]
 type = "article"
 tags = ["biblical foundations"]
