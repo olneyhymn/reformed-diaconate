@@ -4,7 +4,7 @@ source = "gracecovenantpca.org"
 description = "Grace Covenant PCA Pastor's Papers"
 authors = ["Christopher Hutchinson"]
 type = "article"
-tags = ["biblical foundations"]
+tags = ["biblical foundations", "polity discussions"]
 
 [sources]
 web = "http://www.gracecovenantpca.org/resources/pastors_papers/"
