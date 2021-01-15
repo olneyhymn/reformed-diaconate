@@ -79,19 +79,20 @@
     <div class="row">
       <div class="col-sm-10 offset-sm-1 text-center">
       {{ partial "social.html" . }}
-
-        <div class="feedback">
-            <p>
-                Feedback, questions, or recommended resources?
-            </p>
-            <form name="feedback" method="POST" data-netlify="true" class="pure-form pure-form-aligned">
-                    <div class="six columns"><input type="text" name="name" placeholder="Name" class="u-full-width" /></div>
-                    <div class="six columns"><input type="email" name="email" placeholder="Email Address" class="u-full-width" /></div>
-                    <input type="hidden" name="page" value="{{ .Permalink }}">
-                    <textarea name="message" class="u-full-width" placeholder="Feedback"></textarea>
-                    <button type="submit" class="button-primary">Send</button>
-            </form>
+        
+        <div class="">
+          <p>
+              Feedback, questions, or recommended resources?</
+          </p>
+          <form name="feedback" method="POST" data-netlify="true" class="pure-form pure-form-aligned">
+                  <div class="pure-control-group"><input type="text" name="name" placeholder="Name" /></div>
+                  <div class="pure-control-group"><input type="email" name="email" placeholder="Email Address"/></div>
+                  <input type="hidden" name="page" value="{{ .Permalink }}">
+                  <div class="pure-control-group"><textarea name="message" class="pure-input-1" placeholder="Feedback"></textarea></div>
+                  <button type="submit" class="pure-button">Send</button>
+          </form>
         </div>
+
 
         <p class="remove-bottom">
             Copyright &copy;
