@@ -80,15 +80,15 @@
       <div class="col-sm-10 offset-sm-1 text-center">
       {{ partial "social.html" . }}
         
-        <div class="">
+        <div class="form-group">
           <p>
               Feedback, questions, or recommended resources?</
           </p>
-          <form name="feedback" method="POST" data-netlify="true" class="pure-form pure-form-aligned">
-                  <div class="pure-control-group"><input type="text" name="name" placeholder="Name" /></div>
-                  <div class="pure-control-group"><input type="email" name="email" placeholder="Email Address"/></div>
+          <form name="feedback" method="POST" data-netlify="true" class="">
+                  <div class="form-control"><input type="text" name="name" placeholder="Name" /></div>
+                  <div class="form-control"><input type="email" name="email" placeholder="Email Address"/></div>
                   <input type="hidden" name="page" value="{{ .Permalink }}">
-                  <div class="pure-control-group"><textarea name="message" class="pure-input-1" placeholder="Feedback"></textarea></div>
+                  <div class="form-control"><textarea name="message" class="" rows="3" placeholder="Feedback"></textarea></div>
                   <button type="submit" class="pure-button">Send</button>
           </form>
         </div>
