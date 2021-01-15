@@ -7,8 +7,8 @@ type = "article"
 tags = ["biblical foundations"]
 
 [sources]
-web = "http://opc.org/os.html?article_id=410&issue_id=93&pfriendly=Y"
-"pdf archive" = "/pdfs/httpopcorgoshtmlarticleid410issueid93pfriendlyY.pdf"
+web = "https://opc.org/os.html?article_id=410"
+"pdf archive" = "/pdfs/fasting_death_joy.pdf"
 +++
 
 #### Excerpt
