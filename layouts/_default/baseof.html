@@ -80,9 +80,19 @@
       <div class="col-sm-10 offset-sm-1 text-center">
       {{ partial "social.html" . }}
 
-        <p class="remove-bottom mt-2">
-            <a href="http://goo.gl/forms/Xemi1NRoOC">Feedback, questions, or recommended resources?</a>
-        </p>
+        <div class="feedback">
+            <p>
+                Feedback, questions, or recommended resources?
+            </p>
+            <form name="feedback" method="POST" data-netlify="true" class="pure-form pure-form-aligned">
+                    <div class="six columns"><input type="text" name="name" placeholder="Name" class="u-full-width" /></div>
+                    <div class="six columns"><input type="email" name="email" placeholder="Email Address" class="u-full-width" /></div>
+                    <input type="hidden" name="page" value="{{ .Permalink }}">
+                    <textarea name="message" class="u-full-width" placeholder="Feedback"></textarea>
+                    <button type="submit" class="button-primary">Send</button>
+            </form>
+        </div>
+
         <p class="remove-bottom">
             Copyright &copy;
             <script language="javascript" type="text/javascript">document.write((new Date()).getFullYear())</script>
@@ -95,7 +105,6 @@
             &middot;
             <a href="https://ulsterworldly.com">
                 <small>ulsterworldly.com</small></a>
-            &middot;
         </p>
         <p class="remove-bottom">
         Header photo of <a href="https://en.wikipedia.org/wiki/Second_Presbyterian_Church_(Charleston,_South_Carolina)#/media/File:Second_Pres_1892.PNG"target="_blank">Second Presbyterian Church in Charleston, South Carolina</a>.
