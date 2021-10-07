@@ -3,14 +3,14 @@
         <div class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
         {{ range .Data.Pages.ByTitle }}
         <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-12 {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
-            <div class="rounded card bg-faded m-2">
+            <div class="rounded card bg-light m-2">
                 {{ $permalink := .Permalink }}
                 {{ with .Params.image }}
                     <a href="{{ $permalink }}" class="hidden-sm-down">
-                        <img class="card-img-top" src='{{ . }}' width="100%">
+                        <img class="card-img-top" src='{{ . }}'>
                     </a>
                 {{ end }}
-                <div class="card-block pb-1">
+                <div class="card-body pb-1">
                     <h5 class="card-title mb-1"><a href="{{ .Permalink }}" class="no-underline">
                         <span class="hidden-md-up">
                             {{ partial "icon.html" . }}

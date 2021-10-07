@@ -1,4 +1,5 @@
 themes/
 public/
 static/pdfs/archive/
+.DS_Store
 static/_css/
