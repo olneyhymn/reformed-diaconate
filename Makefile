@@ -1,7 +1,3 @@
-all: pull clean build push
-	# Rebuild pages
-	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
-
 build:
 	hugo --verbose
 	sass static/scss/bootstrap.scss:public/_css/bootstrap.css static/scss/bootstrap-grid.scss:public/_css/bootstrap-grid.css static/scss/bootstrap-reboot.scss:public/_css/bootstrap-reboot.scss
@@ -17,17 +13,6 @@ clean:
 	# Delete local build
 	rm -rf public
 	find . -name .DS_Store | xargs rm
-
-deploy:
-	# Deploy site to heroku
-	s3cmd sync --acl-public --delete-removed public/ s3://reformeddeacon.com
-
-push:
-	# Push to github
-	git push
-
-pull:
-	git pull
 
 pdfs:
 	# Generate PDFs from HTML pages (esp opc.org pages)
