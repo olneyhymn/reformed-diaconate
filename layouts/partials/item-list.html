@@ -6,7 +6,7 @@
             <div class="rounded card bg-light m-2">
                 {{ $permalink := .Permalink }}
                 {{ with .Params.image }}
-                    <a href="{{ $permalink }}" class="d-sm-down">
+                    <a href="{{ $permalink }}" class="d-none d-md-block">
                         <img class="card-img-top" src='{{ . }}'>
                     </a>
                 {{ end }}
@@ -22,7 +22,7 @@
                         {{ end }}
                     </div>
                 </div>
-                <div class="container-fluid mx-0 d-sm-down">
+                <div class="container-fluid mx-0 d-none d-md-block">
                 <div class="row">
                     <div class="col-sm-9">
                         {{ with .Params.sources }}
