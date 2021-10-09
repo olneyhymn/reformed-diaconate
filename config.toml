@@ -1,5 +1,6 @@
 baseurl = "http://reformeddeacon.com/"
 languageCode = "en-us"
+relativeURLs = true
 title = "Readings in the Reformed Diaconate"
 [taxonomies]
   author = "authors"

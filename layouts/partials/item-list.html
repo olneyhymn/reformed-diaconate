@@ -1,18 +1,14 @@
-<div class="container-fluid  bg-success pb-4"><div class="container">
-    <div class="grid pt-4" id="card-container">
-        <div class="grid-sizer col-lg-3 col-md-4 col-sm-6 col-xs-12"></div>
+<div class="container-fluid bg-success pb-4">
+    <div class="container">
+    <div class="row" id="card-container" data-masonry='{"percentPosition": true }'>
         {{ range .Data.Pages.ByTitle }}
-        <div class="grid-item col-lg-3 col-md-4 col-sm-6 col-xs-12 {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
+        <div class="grid-item col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 {{ with .Params.tags }}{{ range $i, $e := . }}{{ $e | urlize}} {{ end }}{{ end }}">
             <div class="rounded card bg-light m-2">
-                {{ $permalink := .Permalink }}
-                {{ with .Params.image }}
-                    <a href="{{ $permalink }}" class="d-none d-md-block">
-                        <img class="card-img-top" src='{{ . }}'>
-                    </a>
-                {{ end }}
+                {{ $permalink := .RelPermalink }}
+                <div class="card-header bg-info pb-1"></div>
                 <div class="card-body pb-1">
-                    <h5 class="card-title mb-1"><a href="{{ .Permalink }}" class="no-underline">
-                        <span class="hidden-md-up">
+                    <h5 class="card-title mb-1"><a href="{{ .RelPermalink }}" class="no-underline">
+                        <span class="d-md-none">
                             {{ partial "icon.html" . }}
                         </span>
                         {{ .Title }}
@@ -25,28 +21,26 @@
                         {{ end }}
                     </div>
                 </div>
-                <div class="container-fluid mx-0 d-none d-md-block">
-                <div class="row">
-                    <div class="col-sm-9">
+                <div class="card-footer bg-white p-0">
+                        {{ $itemScope := . }}
                         {{ with .Params.sources }}
                           <ul class="list-group list-group-flush">
                             {{ range $key, $value := . }}
-                                <li class="list-group-item"><a href="{{ $value }}" target="_blank">
-                                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                                <li class="list-group-item py-1"><a href="{{ $value }}" target="_blank">
+                                    {{ partial "icon.html" $itemScope }}
                                 {{ $key }}</a></li>
                             {{ end }}
                           </ul>
                         {{ end }}
-                    </div>
-                    <div class="col-sm-3 icon-corner bg-info text-center text-white d-flex justify-content-center align-self-stretch">
-                        <div class="align-self-center">
-                            {{ partial "icon.html" . }}
-                        </div>
-                    </div>
                 </div>
-                </div>
+                {{ with .Params.image }}
+                    <a href="{{ $permalink }}" class="d-none d-md-block">
+                        <img class="card-img-bottom" src='{{ . }}'>
+                    </a>
+                {{ end }}
             </div>
         </div>
         {{ end }}
     </div>
-</div></div>
+    </div>
+</div>

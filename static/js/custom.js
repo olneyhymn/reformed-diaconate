@@ -12,12 +12,7 @@ $(document).ready(function() {
     });
 
     var $grid = $('#card-container').masonry({
-      // set itemSelector so .grid-sizer is not used in layout
       itemSelector: '.grid-item:not(.filtered)',
-      // use element for option
-      columnWidth: '.grid-sizer',
-      isResizable: true,
-      isAnimated: !Modernizr.csstransitions,
       gutter: 0
     });
 
