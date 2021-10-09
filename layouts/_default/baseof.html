@@ -30,10 +30,7 @@
   <link rel="stylesheet" href="/_css/bootstrap.css">
   <link rel="stylesheet" href="/css/custom.css">
 
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous"></script>
+
 
 
   <!-- Trackers
@@ -55,7 +52,7 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-primary bg-faded justify-content-end">
+  <nav class="navbar fixed-top navbar-primary bg-light justify-content-end">
     <ul class="navbar-nav">
       <li class="float-sm-right navbar-brand ml-auto "><a class="navbar-brand" href="/">Home</a></li>
     </ul>
@@ -69,32 +66,31 @@
       </div>
     </div>
   </div>
-  </div>
 
   {{ block "main" . }}
     <!-- The part of the page that begins to differ between templates -->
   {{ end }}
 
-  <div class="container-fluid bg-faded pt-4">
+  <div class="container-fluid bg-light pt-4">
     <div class="row">
       <div class="col-sm-10 offset-sm-1 text-center">
       {{ partial "social.html" . }}
-        
-        <div class="col-sm-6 offset-sm-3">
+
+        <div class="col-sm-6 offset-sm-3 mb-4" id="feedback">
           <p>
               Feedback, questions, or recommended resources?
           </p>
           <form name="feedback" method="POST" data-netlify="true">
-            <div class="form-group"><input type="text" name="name" placeholder="Name" class="form-control form-control-sm" /></div>
-            <div class="form-group"><input type="email" name="email" placeholder="Email Address" class="form-control form-control-sm" /></div>
+            <div class="input-group mb-2"><input type="text" name="name" placeholder="Name" class="form-control form-control-sm" /></div>
+            <div class="input-group mb-2"><input type="email" name="email" placeholder="Email Address" class="form-control form-control-sm" /></div>
             <input type="hidden" name="page" value="{{ .Permalink }}">
-            <div class="form-group"><textarea name="message" class="form-control" rows="3" placeholder="Feedback"></textarea></div>
+            <div class="input-group mb-2"><textarea name="message" class="form-control" rows="3" placeholder="Feedback"></textarea></div>
             <button type="submit" class="btn btn-primary">Send</button>
           </form>
         </div>
 
 
-        <p class="remove-bottom">
+        <p class="">
             Copyright &copy;
             <script language="javascript" type="text/javascript">document.write((new Date()).getFullYear())</script>
             &middot;
@@ -107,19 +103,24 @@
             <a href="https://ulsterworldly.com">
                 <small>ulsterworldly.com</small></a>
         </p>
-        <p class="remove-bottom">
-        Header photo of <a href="https://en.wikipedia.org/wiki/Second_Presbyterian_Church_(Charleston,_South_Carolina)#/media/File:Second_Pres_1892.PNG"target="_blank">Second Presbyterian Church in Charleston, South Carolina</a>.
+        <p class="">
+        Header photo of <a href="https://en.wikipedia.org/wiki/Second_Presbyterian_Church_(Charleston,_South_Carolina)#/media/File:Second_Pres_1892.PNG" target="_blank">Second Presbyterian Church in Charleston, South Carolina</a>.
         </p>
       </div>
     </div>
   </div>
-</body>
 
-  <script src="/js/jquery.masonry.min.js"></script>
-  <script src="/js/modernizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="/js/custom.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
+</body>
 </html>

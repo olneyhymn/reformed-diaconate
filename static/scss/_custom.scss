@@ -13,29 +13,36 @@
 //## Gray and brand colors for use across Bootstrap.
 
 
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+
 $gray:                   #95a5a6; // #555
 $gray-darker:            lighten(#000, 13.5%); // #222
 $gray-dark:              #7b8a8b;   // #333
 $gray-light:             #b4bcc2;   // #999
 $gray-lighter:           #ecf0f1; // #eee
 
-$brand-primary:         #311206;
-$brand-success:         #A84B11;
-$brand-info:            #4B686E;
-$brand-warning:         #00EEBB;
-$brand-danger:          #FCC27B;
+$primary:       #311206 !default;
+// $secondary:     $gray-600 !default;
+$success:       #A84B11 !default;
+$info:          #4B686E !default;
+$warning:       #00EEBB !default;
+$danger:        #FCC27B !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-900 !default;
 
 $body-bg:       $white;
 $body-color:    $black;
 $inverse-bg:    $gray-dark;
 $inverse-color: $gray-lighter;
 
-$font-family-serif:       "Vollkorn";
-$font-family-sans-serif:       "Montserrat";
-$font-family-base:        $font-family-serif;
-$headings-font-family:    $font-family-sans-serif;
 
-$link-color:            $brand-primary;
+
+$link-color:            $primary;
 $link-decoration:       none;
 $link-hover-color:      darken($link-color, 15%);
 $link-hover-decoration: underline;
@@ -53,7 +60,7 @@ $navbar-padding-y: 0px;
   $a-tags-hover: 'a:active, a:hover';
 
   #{$a-tags} {
-    color: $brand-danger;
+    color: $danger;
     text-decoration: none;
   }
   #{$a-tags-hover} {
@@ -72,7 +79,7 @@ $navbar-padding-y: 0px;
   background-attachment: scroll;
   background-size: cover;
   background-color: #C4C4C4;
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 700px; /*same height as jumbotron */
   top:0;
@@ -85,7 +92,7 @@ $navbar-padding-y: 0px;
   text-shadow: $gray-light 0 2px 2px;
   background:transparent !important;
   .lead {
-    color: $brand-primary;
+    color: $primary;
   }
 }
 
@@ -98,7 +105,7 @@ $navbar-padding-y: 0px;
   text-align: justify;
 }
 
-$link-color: $brand-info;
+$link-color: $info;
 
 .no-underline {
   text-decoration: none;
@@ -109,7 +116,7 @@ blockquote {
   font-style: normal;
   margin: 0em;
   padding: 1.5em;
-  border-left: 4px solid $brand-primary;
+  border-left: 4px solid $primary;
   border-radius: 5px;
   text-align: justify;
   background-color: darken($body-bg, 3%);
