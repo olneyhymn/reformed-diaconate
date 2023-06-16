@@ -7,6 +7,6 @@ tags = ["Biblical Foundations"]
 
 [sources]
 web = "https://journal.rts.edu/article/justification-of-ordained-office-of-deacon-restricted-to-qualified-males/"
-"pdf archive" = "/pdfs/peck.pdf"
+"pdf archive" = "/pdfs/cara.pdf"
 +++
 
