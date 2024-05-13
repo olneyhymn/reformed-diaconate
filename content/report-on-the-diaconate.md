@@ -6,5 +6,5 @@ type = "report"
 tags = ["Denominational Report"]
 
 [sources]
-web = "http://pcahistory.org/topicalresources/deacons/1884-PCUS-Report.pdf"
+web = "http://pcahistory.org/topical/deacons/1884-PCUS-Report.pdf"
 +++
