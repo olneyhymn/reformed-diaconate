@@ -8,7 +8,7 @@ tags = ["Books", "Biblical Foundations", "History", "Diaconal Practice"]
 image = '/img/vandam.jpg'
 
 [sources]
-"buy at wtsbooks.com" = "http://www.wtsbooks.com/deacon-cornelis-van-dam-9781601785114"
+"buy at heritagebooks.org" = "https://heritagebooks.org/products/the-deacon-the-biblical-roots-and-the-ministry-of-mercy-today-van-dam.html"
 "buy at amazon.com" = "http://amzn.to/2pc40Qp"
 +++
 
