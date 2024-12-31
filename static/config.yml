@@ -1,0 +1,33 @@
+backend:
+ name: git-gateway
+ branch: main
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+ - name: "posts"
+   label: "Posts"
+   folder: "content/posts"
+   create: true
+   slug: "{{slug}}"
+   fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Description", name: "description", widget: "string"}
+     - {label: "Authors", name: "authors", widget: "list"}
+     - {label: "Type", name: "type", widget: "select", options: ["article", "book", "report"]}
+     - {label: "Tags", name: "tags", widget: "list"}
+     - {label: "Image", name: "image", widget: "image", required: false}
+     - {label: "Slug", name: "slug", widget: "string", required: false}
+     - label: "Sources"
+       name: "sources"
+       widget: "object"
+       fields:
+         - {label: "Web", name: "web", widget: "string", required: false}
+         - {label: "PDF Archive", name: "pdf archive", widget: "string", required: false}
+         - {label: "Buy at Amazon", name: "buy at amazon.com", widget: "string", required: false}
+         - {label: "Buy at WTS Books", name: "buy at wtsbooks.com", widget: "string", required: false}
+         - {label: "Full PDF", name: "full pdf", widget: "string", required: false}
+         - {label: "Chapter Text", name: "chapter text", widget: "string", required: false}
+         - {label: "Google Books", name: "google books", widget: "string", required: false}
+     - {label: "Body", name: "body", widget: "markdown"}
